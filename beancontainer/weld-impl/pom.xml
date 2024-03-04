@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.cdisource.beancontainer</groupId>
-    <artifactId>beancontainer-weld-impl</artifactId>
+    <groupId>org.cdisource.spring-cdisource</groupId>
+    <artifactId>spring-cdisource-beancontainer-weld-impl</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.17</version>
 
     <parent>
         <groupId>org.cdisource</groupId>
         <artifactId>cdisource-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.17</version>
         <relativePath>../../parent</relativePath>
     </parent>
 
@@ -37,7 +37,7 @@
         <dependency>
             <groupId>org.cdisource.beancontainer</groupId>
             <artifactId>beancontainer-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.17</version>
         </dependency>
         <dependency>
         	<groupId>junit</groupId>
@@ -49,14 +49,14 @@
         <dependency>
         	<groupId>org.cdisource.beancontainer</groupId>
         	<artifactId>beancontainer-test</artifactId>
-        	<version>1.0-SNAPSHOT</version>
+        	<version>1.17</version>
         	<type>jar</type>
         	<scope>test</scope>
         </dependency>
         <!--dependency> @TODO can;t reference self, but tests fail coz beancontainer-test doesn't seem to get found ...
         	<groupId>org.cdisource.beancontainer</groupId>
         	<artifactId>beancontainer-weld-impl</artifactId>
-        	<version>1.0-SNAPSHOT</version>
+        	<version>1.17</version>
         	<type>jar</type>
         	<scope>test</scope>
         </dependency-->

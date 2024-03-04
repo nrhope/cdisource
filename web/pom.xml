@@ -4,18 +4,18 @@
     <parent>
         <groupId>org.cdisource</groupId>
         <artifactId>cdisource-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.17</version>
         <relativePath>../parent</relativePath>
     </parent>
-    <groupId>org.cdisource.web</groupId>
-    <artifactId>cdisource-web</artifactId>
+    <groupId>org.cdisource.spring-cdisource</groupId>
+    <artifactId>spring-cdisource-web</artifactId>
     <name>CDISource Web components</name>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.17</version>
     <dependencies>
         <dependency>
             <groupId>org.cdisource.beancontainer</groupId>
             <artifactId>beancontainer-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.17</version>
             <type>jar</type>
             <scope>provided</scope>
         </dependency>
@@ -36,7 +36,7 @@
         <dependency>
             <groupId>org.cdisource.beancontainer</groupId>
             <artifactId>beancontainer-test</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.17</version>
             <type>jar</type>
             <scope>test</scope>
         </dependency>
@@ -56,13 +56,13 @@
             <groupId>org.cdisource.beancontainer</groupId>
             <artifactId>beancontainer-weld-impl</artifactId> <!-- @yarris -->
             <scope>test</scope>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.17</version>
         </dependency>
         <!--dependency>
             <groupId>org.cdisource.beancontainer</groupId>
             <artifactId>beancontainer-resin-impl</artifactId>
             <scope>test</scope>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.17</version>
         </dependency-->
         
 		<dependency>

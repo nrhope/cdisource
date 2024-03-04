@@ -4,11 +4,20 @@ files needed by clients:
   ./web/target/cdisource-web-1.0-SNAPSHOT.jar
   ./beancontainer/weld-impl/target/beancontainer-weld-impl-1.0-SNAPSHOT.jar
 
-
 build with:
     ./mvn.sh
 
-Have to solve two probs:
+Unfortunately pom.xml s are not set up allow easy change of version / adding of -SNAPSHOT so had
+to do the following manually:
+    vi `find . -name pom.xml -exec grep -Hl 1.0-SNAPSHOT {} \;`
+    :%s/1.0-SNAPSHOT/1.17/g
+
+
+
+
+----------
+
+Have to solve two probs in fork of original repo:
     1. disabled test (refer errors/*.txt) => fixed by changing code incorrectly using bean.getBeanClass() in ...
 
 testLookupProducer(org.cdisource.beancontainer.WeldBeanContainerTest)  Time elapsed: 0.033 sec  <<< ERROR!
