@@ -82,11 +82,11 @@
 [INFO] 
 [INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ cdisource-parent ---
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/1.17/cdisource-parent-1.17.pom
-Progress (1): 4.1/18 kBProgress (1): 8.2/18 kBProgress (1): 12/18 kB Progress (1): 16/18 kBProgress (1): 18 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/1.17/cdisource-parent-1.17.pom (18 kB at 58 kB/s)
+Progress (1): 4.1/18 kBProgress (1): 8.2/18 kBProgress (1): 12/18 kB Progress (1): 16/18 kBProgress (1): 18 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/1.17/cdisource-parent-1.17.pom (18 kB at 36 kB/s)
 Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/maven-metadata.xml
-Progress (1): 307 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/maven-metadata.xml (307 B at 3.9 kB/s)
+Progress (1): 307 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/maven-metadata.xml (307 B at 3.4 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/maven-metadata.xml
-Progress (1): 307 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/maven-metadata.xml (307 B at 1.5 kB/s)
+Progress (1): 307 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/maven-metadata.xml (307 B at 1.7 kB/s)
 [INFO] 
 [INFO] --< org.cdisource.spring-cdisource:spring-cdisource-beancontainer-api >--
 [INFO] Building BeanContainer API 1.17                                    [2/9]
@@ -139,7 +139,7 @@ Progress (1): 307 B                   Uploaded to yarris-release: http://build
  T E S T S
 -------------------------------------------------------
 Running org.cdisource.beancontainer.namespace.BeanNamespaceTest
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec
 
 Results :
 
@@ -212,7 +212,7 @@ Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
  T E S T S
 -------------------------------------------------------
 Running org.cdisource.beancontainer.namespace.BeanNamespaceTest
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 sec
 
 Results :
 
@@ -246,14 +246,15 @@ Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ spring-cdisource-beancontainer-api ---
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.jar
-Progress (1): 4.1/24 kBProgress (1): 8.2/24 kBProgress (1): 12/24 kB Progress (1): 16/24 kBProgress (1): 20/24 kBProgress (1): 24 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.jar (24 kB at 121 kB/s)
+Progress (1): 4.1/24 kBProgress (1): 8.2/24 kBProgress (1): 12/24 kB Progress (1): 16/24 kBProgress (1): 20/24 kBProgress (1): 24 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.jar (24 kB at 31 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.pom
-Progress (1): 1.5 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.pom (1.5 kB at 7.4 kB/s)
+Progress (1): 1.5 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.pom (1.5 kB at 5.3 kB/s)
 Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/maven-metadata.xml
+Progress (1): 342 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/maven-metadata.xml (342 B at 1.7 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/maven-metadata.xml
-Progress (1): 342 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/maven-metadata.xml (342 B at 1.8 kB/s)
+Progress (1): 342 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/maven-metadata.xml (342 B at 2.0 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17-sources.jar
-Progress (1): 4.1/16 kBProgress (1): 8.2/16 kBProgress (1): 12/16 kB Progress (1): 16 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17-sources.jar (16 kB at 87 kB/s)
+Progress (1): 4.1/16 kBProgress (1): 8.2/16 kBProgress (1): 12/16 kB Progress (1): 16 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17-sources.jar (16 kB at 90 kB/s)
 [INFO] 
 [INFO] -----------< org.cdisource.beancontainer:beancontainer-test >-----------
 [INFO] Building Beancontainer testing harness 1.17                        [3/9]
@@ -381,15 +382,15 @@ Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ beancontainer-test ---
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.jar
-Progress (1): 4.1/9.0 kBProgress (1): 8.2/9.0 kBProgress (1): 9.0 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.jar (9.0 kB at 49 kB/s)
+Progress (1): 4.1/9.0 kBProgress (1): 8.2/9.0 kBProgress (1): 9.0 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.jar (9.0 kB at 47 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.pom
-Progress (1): 984 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.pom (984 B at 5.2 kB/s)
+Progress (1): 984 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.pom (984 B at 5.4 kB/s)
 Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/maven-metadata.xml
 Progress (1): 323 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/maven-metadata.xml (323 B at 4.6 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/maven-metadata.xml
-Progress (1): 323 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/maven-metadata.xml (323 B at 1.7 kB/s)
+Progress (1): 323 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/maven-metadata.xml (323 B at 1.5 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17-sources.jar
-Progress (1): 4.1/5.4 kBProgress (1): 5.4 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17-sources.jar (5.4 kB at 29 kB/s)
+Progress (1): 4.1/5.4 kBProgress (1): 5.4 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17-sources.jar (5.4 kB at 30 kB/s)
 [INFO] 
 [INFO] --< org.cdisource.spring-cdisource:spring-cdisource-beancontainer-weld-impl >--
 [INFO] Building Weld Bean Container Implementation 1.17                   [4/9]
@@ -428,75 +429,75 @@ Progress (1): 4.1/5.4 kBProgress (1): 5.4 kB                        Uploaded 
  T E S T S
 -------------------------------------------------------
 Running org.cdisource.beancontainer.WeldBeanContainerTest
-Mar 04, 2024 6:23:11 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+Mar 04, 2024 8:25:57 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
 INFO: WELD-000900: 3.1.9 (Final)
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:57 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 97a1fa66-faf0-4ec2-bae7-64d1af061197 initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 97a1fa66-faf0-4ec2-bae7-64d1af061197 shut down
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 4f07868b-19f4-46a3-b073-08a5a1381380 initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 4f07868b-19f4-46a3-b073-08a5a1381380 shut down
+Mar 04, 2024 8:25:58 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container e670d3b4-d83c-4c19-b8dc-5fdd3ec7f9fb initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container e670d3b4-d83c-4c19-b8dc-5fdd3ec7f9fb shut down
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 55a9ef28-7785-491f-9f69-61dca711e66a initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 55a9ef28-7785-491f-9f69-61dca711e66a shut down
+Mar 04, 2024 8:25:58 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 05297b6b-5d99-4e54-9eff-17ed9ae3bbe1 initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 05297b6b-5d99-4e54-9eff-17ed9ae3bbe1 shut down
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 9371c450-6356-4c2a-8684-aa5d06f97a3c initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 9371c450-6356-4c2a-8684-aa5d06f97a3c shut down
+Mar 04, 2024 8:25:58 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container c7e7206e-9bca-43c7-a114-1ead03745555 initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container c7e7206e-9bca-43c7-a114-1ead03745555 shut down
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container c69d7145-044b-4627-9c47-c94c482ed367 initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container c69d7145-044b-4627-9c47-c94c482ed367 shut down
+Mar 04, 2024 8:25:58 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 8366c414-c1a9-404b-801a-24a39068afce initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 8366c414-c1a9-404b-801a-24a39068afce shut down
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 0dff9e1e-cbd5-42c2-9373-05987e983b42 initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 0dff9e1e-cbd5-42c2-9373-05987e983b42 shut down
+Mar 04, 2024 8:25:58 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container f2753c9e-6d46-43a7-973a-c5fa3991576a initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container f2753c9e-6d46-43a7-973a-c5fa3991576a shut down
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container ca5f7e12-eb5b-4609-909c-50e7cc2afe27 initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container ca5f7e12-eb5b-4609-909c-50e7cc2afe27 shut down
+Mar 04, 2024 8:25:58 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container f9dc7e98-414e-48d8-b023-48e062cf11d6 initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container f9dc7e98-414e-48d8-b023-48e062cf11d6 shut down
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 79537b9d-147c-4303-901c-8e7b18373c93 initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 79537b9d-147c-4303-901c-8e7b18373c93 shut down
+Mar 04, 2024 8:25:58 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container f188dbdb-0c13-4834-b56e-0ed222d63d44 initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container f188dbdb-0c13-4834-b56e-0ed222d63d44 shut down
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container ad32d275-67ef-4f51-bb6d-98407f78ca87 initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container ad32d275-67ef-4f51-bb6d-98407f78ca87 shut down
+Mar 04, 2024 8:25:58 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container f16f245c-f961-41e9-824f-d924a92d417c initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container f16f245c-f961-41e9-824f-d924a92d417c shut down
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 62fe3a54-e99c-4b20-8fed-c8467757bc35 initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 62fe3a54-e99c-4b20-8fed-c8467757bc35 shut down
+Mar 04, 2024 8:25:58 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 676cd6fd-12a2-4500-968a-483d1b6c30fc initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 676cd6fd-12a2-4500-968a-483d1b6c30fc shut down
-Mar 04, 2024 6:23:12 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container f6b2d865-decf-467b-9006-64dca052365e initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container f6b2d865-decf-467b-9006-64dca052365e shut down
+Mar 04, 2024 8:25:58 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 07c08a4d-f1e8-4409-b6fc-b22af52232b1 initialized
-Mar 04, 2024 6:23:12 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 07c08a4d-f1e8-4409-b6fc-b22af52232b1 shut down
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.863 sec
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container a4647e63-a69b-4798-98c4-015c5ff3b1be initialized
+Mar 04, 2024 8:25:58 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container a4647e63-a69b-4798-98c4-015c5ff3b1be shut down
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.557 sec
 
 Results :
 
@@ -555,75 +556,75 @@ Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
  T E S T S
 -------------------------------------------------------
 Running org.cdisource.beancontainer.WeldBeanContainerTest
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+Mar 04, 2024 8:25:59 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
 INFO: WELD-000900: 3.1.9 (Final)
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:00 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container abfbfb9e-6dda-4206-9566-935a49f75a8e initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container abfbfb9e-6dda-4206-9566-935a49f75a8e shut down
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:00 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 0721a3a3-8794-45aa-9852-2fd16994aee6 initialized
+Mar 04, 2024 8:26:00 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 0721a3a3-8794-45aa-9852-2fd16994aee6 shut down
+Mar 04, 2024 8:26:00 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 56d23bd9-ea77-4650-a625-f74abb4c6842 initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 56d23bd9-ea77-4650-a625-f74abb4c6842 shut down
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:00 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container e4b4bd39-a502-4f27-bcb6-d599c0b8129f initialized
+Mar 04, 2024 8:26:00 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container e4b4bd39-a502-4f27-bcb6-d599c0b8129f shut down
+Mar 04, 2024 8:26:01 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 3ba27c13-6c83-433c-861b-d22e664f1ccf initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 3ba27c13-6c83-433c-861b-d22e664f1ccf shut down
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 66cd14fd-5c1b-4b59-93e2-6378bd5c94da initialized
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 66cd14fd-5c1b-4b59-93e2-6378bd5c94da shut down
+Mar 04, 2024 8:26:01 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 68f7926c-0e32-4e17-9c17-dd7fce0c6b01 initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 68f7926c-0e32-4e17-9c17-dd7fce0c6b01 shut down
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container c4e89e25-1f8b-494d-a03c-c506d08df5fb initialized
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container c4e89e25-1f8b-494d-a03c-c506d08df5fb shut down
+Mar 04, 2024 8:26:01 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container f58bbf54-525b-405f-8c57-d217a4cf1bd0 initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container f58bbf54-525b-405f-8c57-d217a4cf1bd0 shut down
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 527e3483-c50b-483c-ad88-46532c25b377 initialized
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 527e3483-c50b-483c-ad88-46532c25b377 shut down
+Mar 04, 2024 8:26:01 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container a06baaf0-82bd-4821-ba5e-07be89c54293 initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container a06baaf0-82bd-4821-ba5e-07be89c54293 shut down
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 59a17278-c5c0-418a-9b77-a06aa4aad31b initialized
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 59a17278-c5c0-418a-9b77-a06aa4aad31b shut down
+Mar 04, 2024 8:26:01 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container a2dec359-def8-4832-b221-38e1af5388d5 initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container a2dec359-def8-4832-b221-38e1af5388d5 shut down
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container d3d4a606-e7e1-4cf5-a072-518657ccd23c initialized
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container d3d4a606-e7e1-4cf5-a072-518657ccd23c shut down
+Mar 04, 2024 8:26:01 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 1d969e05-e6fe-49a6-bb0a-e3bc5674bf3e initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 1d969e05-e6fe-49a6-bb0a-e3bc5674bf3e shut down
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 4a8400cf-48d1-403a-8cf1-a3bb18e1a9b8 initialized
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 4a8400cf-48d1-403a-8cf1-a3bb18e1a9b8 shut down
+Mar 04, 2024 8:26:01 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 20b75b2a-5813-44f4-846c-7e284b06f8d4 initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 20b75b2a-5813-44f4-846c-7e284b06f8d4 shut down
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 05e041da-e8c6-4646-98f0-277a4923f7b0 initialized
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 05e041da-e8c6-4646-98f0-277a4923f7b0 shut down
+Mar 04, 2024 8:26:01 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container fc968165-04d3-4fae-acf6-017b2441ba80 initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container fc968165-04d3-4fae-acf6-017b2441ba80 shut down
-Mar 04, 2024 6:23:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container cbfcc24b-9feb-46ab-9b7a-b89daf012b30 initialized
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container cbfcc24b-9feb-46ab-9b7a-b89daf012b30 shut down
+Mar 04, 2024 8:26:01 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 64c4d175-a168-4687-8997-9f71b3919951 initialized
-Mar 04, 2024 6:23:13 PM org.jboss.weld.environment.se.WeldContainer shutdown
-INFO: WELD-ENV-002001: Weld SE container 64c4d175-a168-4687-8997-9f71b3919951 shut down
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.824 sec
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container d92eb5e2-27fb-4647-8fb5-ec64689b227f initialized
+Mar 04, 2024 8:26:01 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container d92eb5e2-27fb-4647-8fb5-ec64689b227f shut down
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.788 sec
 
 Results :
 
@@ -655,14 +656,15 @@ Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ spring-cdisource-beancontainer-weld-impl ---
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.jar
-Progress (1): 4.0 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.jar (4.0 kB at 20 kB/s)
+Progress (1): 4.0 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.jar (4.0 kB at 21 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.pom
-Progress (1): 2.5 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.pom (2.5 kB at 7.1 kB/s)
+Progress (1): 2.6 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.pom (2.6 kB at 15 kB/s)
 Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/maven-metadata.xml
+Progress (1): 348 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/maven-metadata.xml (348 B at 5.5 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/maven-metadata.xml
-Progress (1): 348 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/maven-metadata.xml (348 B at 1.9 kB/s)
+Progress (1): 348 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/maven-metadata.xml (348 B at 1.4 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar
-Progress (1): 1.6 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar (1.6 kB at 7.8 kB/s)
+Progress (1): 1.6 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar (1.6 kB at 8.2 kB/s)
 [INFO] 
 [INFO] --------< org.cdisource.beancontainer:beancontainer-jndi-impl >---------
 [INFO] Building JNDI Bean Container Implementation 1.17                   [5/9]
@@ -794,167 +796,167 @@ Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ beancontainer-jndi-impl ---
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.jar
-Progress (1): 4.1/4.2 kBProgress (1): 4.2 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.jar (4.2 kB at 21 kB/s)
+Progress (1): 4.1/4.2 kBProgress (1): 4.2 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.jar (4.2 kB at 23 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.pom
-Progress (1): 1.6 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.pom (1.6 kB at 8.5 kB/s)
+Progress (1): 1.6 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.pom (1.6 kB at 9.0 kB/s)
 Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/maven-metadata.xml
-Progress (1): 328 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/maven-metadata.xml (328 B at 5.0 kB/s)
+Progress (1): 328 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/maven-metadata.xml (328 B at 5.2 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/maven-metadata.xml
-Progress (1): 328 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/maven-metadata.xml (328 B at 1.7 kB/s)
+Progress (1): 328 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/maven-metadata.xml (328 B at 1.8 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17-sources.jar
-Progress (1): 1.7 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17-sources.jar (1.7 kB at 8.9 kB/s)
+Progress (1): 1.7 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17-sources.jar (1.7 kB at 9.5 kB/s)
 [INFO] 
-[INFO] -----------< org.cdisource.testing:cdisource-testing-junit >------------
+[INFO] ---< org.cdisource.spring-cdisource:spring-cdisource-testing-junit >----
 [INFO] Building CDISource JUnit Test Runner 1.17                          [6/9]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ cdisource-testing-junit ---
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ spring-cdisource-testing-junit ---
 [INFO] Deleting /Users/nhope/git/spring-cdisource/testing/junit/target
 [INFO] 
-[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ cdisource-testing-junit ---
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-testing-junit ---
 [WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
 [INFO] 
-[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ cdisource-testing-junit ---
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-testing-junit ---
 [INFO] 
-[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ cdisource-testing-junit ---
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-testing-junit ---
 [INFO] 
-[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ cdisource-testing-junit ---
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-testing-junit ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/testing/junit/src/main/resources
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ cdisource-testing-junit ---
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-testing-junit ---
 [INFO] Changes detected - recompiling the module! :source
 [INFO] Compiling 2 source files with javac [debug deprecation target 17] to target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ cdisource-testing-junit ---
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-testing-junit ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ cdisource-testing-junit ---
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-testing-junit ---
 [INFO] Changes detected - recompiling the module! :dependency
 [INFO] Compiling 3 source files with javac [debug deprecation target 17] to target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ cdisource-testing-junit ---
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ spring-cdisource-testing-junit ---
 [INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/testing/junit/target/surefire-reports
 
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
 Running org.cdisource.testing.junit.CdiTestRunnerTest
-Mar 04, 2024 6:23:17 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+Mar 04, 2024 8:26:05 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
 INFO: WELD-000900: 3.1.9 (Final)
-Mar 04, 2024 6:23:17 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:05 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:17 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 6cc7a59b-a5a9-49e7-986d-a30f1131204c initialized
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.48 sec
+Mar 04, 2024 8:26:06 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 2beb2784-022a-4e25-877d-4dbd0f6f6eaa initialized
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.82 sec
 
 Results :
 
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 
-Weld SE container 6cc7a59b-a5a9-49e7-986d-a30f1131204c shut down by shutdown hook
+Weld SE container 2beb2784-022a-4e25-877d-4dbd0f6f6eaa shut down by shutdown hook
 [INFO] 
-[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ cdisource-testing-junit ---
-[INFO] Building jar: /Users/nhope/git/spring-cdisource/testing/junit/target/cdisource-testing-junit-1.17.jar
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-testing-junit ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17.jar
 [INFO] 
-[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ cdisource-testing-junit >>>
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ spring-cdisource-testing-junit >>>
 [INFO] 
-[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ cdisource-testing-junit ---
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-testing-junit ---
 [WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
 [INFO] 
-[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ cdisource-testing-junit ---
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-testing-junit ---
 [INFO] 
-[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ cdisource-testing-junit ---
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-testing-junit ---
 [INFO] 
-[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ cdisource-testing-junit <<<
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ spring-cdisource-testing-junit <<<
 [INFO] 
 [INFO] 
-[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ cdisource-testing-junit ---
-[INFO] Building jar: /Users/nhope/git/spring-cdisource/testing/junit/target/cdisource-testing-junit-1.17-sources.jar
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ spring-cdisource-testing-junit ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17-sources.jar
 [INFO] 
-[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ cdisource-testing-junit ---
-[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/cdisource-testing-junit-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17.jar
-[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/pom.xml to /Users/nhope/.m2/repository/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17.pom
-[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/cdisource-testing-junit-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17-sources.jar
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ spring-cdisource-testing-junit ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/pom.xml to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17-sources.jar
 [INFO] 
-[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ cdisource-testing-junit ---
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-testing-junit ---
 [WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
 [INFO] 
-[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ cdisource-testing-junit ---
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-testing-junit ---
 [INFO] 
-[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ cdisource-testing-junit ---
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-testing-junit ---
 [INFO] 
-[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ cdisource-testing-junit ---
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-testing-junit ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/testing/junit/src/main/resources
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ cdisource-testing-junit ---
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-testing-junit ---
 [INFO] Nothing to compile - all classes are up to date
 [INFO] 
-[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ cdisource-testing-junit ---
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-testing-junit ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ cdisource-testing-junit ---
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-testing-junit ---
 [INFO] Changes detected - recompiling the module! :dependency
 [INFO] Compiling 3 source files with javac [debug deprecation target 17] to target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ cdisource-testing-junit ---
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ spring-cdisource-testing-junit ---
 [INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/testing/junit/target/surefire-reports
 
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
 Running org.cdisource.testing.junit.CdiTestRunnerTest
-Mar 04, 2024 6:23:17 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+Mar 04, 2024 8:26:07 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
 INFO: WELD-000900: 3.1.9 (Final)
-Mar 04, 2024 6:23:18 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:07 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:18 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 6e1b70de-be77-4008-995d-bea76a4fa8ff initialized
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.471 sec
+Mar 04, 2024 8:26:07 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 458c7532-424f-47d2-b0c0-b0135367fe2b initialized
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.815 sec
 
 Results :
 
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 
-Weld SE container 6e1b70de-be77-4008-995d-bea76a4fa8ff shut down by shutdown hook
+Weld SE container 458c7532-424f-47d2-b0c0-b0135367fe2b shut down by shutdown hook
 [INFO] 
-[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ cdisource-testing-junit ---
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-testing-junit ---
 [INFO] 
-[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ cdisource-testing-junit >>>
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ spring-cdisource-testing-junit >>>
 [INFO] 
-[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ cdisource-testing-junit ---
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-testing-junit ---
 [WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
 [INFO] 
-[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ cdisource-testing-junit ---
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-testing-junit ---
 [INFO] 
-[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ cdisource-testing-junit ---
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-testing-junit ---
 [INFO] 
-[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ cdisource-testing-junit <<<
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ spring-cdisource-testing-junit <<<
 [INFO] 
 [INFO] 
-[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ cdisource-testing-junit ---
-[INFO] Building jar: /Users/nhope/git/spring-cdisource/testing/junit/target/cdisource-testing-junit-1.17-sources.jar
-[WARNING] artifact org.cdisource.testing:cdisource-testing-junit:java-source:sources:1.17 already attached, replace previous instance
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ spring-cdisource-testing-junit ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17-sources.jar
+[WARNING] artifact org.cdisource.spring-cdisource:spring-cdisource-testing-junit:java-source:sources:1.17 already attached, replace previous instance
 [INFO] 
-[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ cdisource-testing-junit ---
-[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/cdisource-testing-junit-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17.jar
-[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/pom.xml to /Users/nhope/.m2/repository/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17.pom
-[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/cdisource-testing-junit-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17-sources.jar
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ spring-cdisource-testing-junit ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/pom.xml to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17-sources.jar
 [INFO] 
-[INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ cdisource-testing-junit ---
-Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17.jar
-Progress (1): 4.1/4.2 kBProgress (1): 4.2 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17.jar (4.2 kB at 22 kB/s)
-Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17.pom
-Progress (1): 1.3 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17.pom (1.3 kB at 6.7 kB/s)
-Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/testing/cdisource-testing-junit/maven-metadata.xml
-Progress (1): 322 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/testing/cdisource-testing-junit/maven-metadata.xml (322 B at 5.0 kB/s)
-Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/testing/cdisource-testing-junit/maven-metadata.xml
-Progress (1): 322 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/testing/cdisource-testing-junit/maven-metadata.xml (322 B at 1.7 kB/s)
-Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17-sources.jar
-Progress (1): 2.2 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/testing/cdisource-testing-junit/1.17/cdisource-testing-junit-1.17-sources.jar (2.2 kB at 12 kB/s)
+[INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ spring-cdisource-testing-junit ---
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.jar
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.jar (4.3 kB at 23 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.pom
+Progress (1): 1.3 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.pom (1.3 kB at 7.2 kB/s)
+Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/maven-metadata.xml
+Progress (1): 338 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/maven-metadata.xml (338 B at 5.5 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/maven-metadata.xml
+Progress (1): 338 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/maven-metadata.xml (338 B at 1.9 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17-sources.jar
+Progress (1): 2.2 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17-sources.jar (2.2 kB at 13 kB/s)
 [INFO] 
 [INFO] --------< org.cdisource.spring-cdisource:spring-cdisource-web >---------
 [INFO] Building CDISource Web components 1.17                             [7/9]
@@ -993,19 +995,19 @@ Progress (1): 2.2 kB                    Uploaded to yarris-release: http://bui
  T E S T S
 -------------------------------------------------------
 Running org.cdisource.web.CDIExpressionResolverTest
-Mar 04, 2024 6:23:19 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+Mar 04, 2024 8:26:09 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
 INFO: WELD-000900: 3.1.9 (Final)
-Mar 04, 2024 6:23:20 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:10 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:20 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 567b5d11-fe86-40f0-91c8-128138ba5cdf initialized
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.496 sec
+Mar 04, 2024 8:26:10 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 12756d6d-eb36-4659-8280-a8e1327d3c51 initialized
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.779 sec
 
 Results :
 
 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 
-Weld SE container 567b5d11-fe86-40f0-91c8-128138ba5cdf shut down by shutdown hook
+Weld SE container 12756d6d-eb36-4659-8280-a8e1327d3c51 shut down by shutdown hook
 [INFO] 
 [INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-web ---
 [INFO] Building jar: /Users/nhope/git/spring-cdisource/web/target/spring-cdisource-web-1.17.jar
@@ -1084,10 +1086,11 @@ Progress (1): 4.1/5.3 kBProgress (1): 5.3 kB                        Uploaded 
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17.pom
 Progress (1): 3.2 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17.pom (3.2 kB at 17 kB/s)
 Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/maven-metadata.xml
+Progress (1): 328 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/maven-metadata.xml (328 B at 4.7 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/maven-metadata.xml
 Progress (1): 328 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/maven-metadata.xml (328 B at 1.8 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17-sources.jar
-Progress (1): 2.3 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17-sources.jar (2.3 kB at 12 kB/s)
+Progress (1): 2.3 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17-sources.jar (2.3 kB at 13 kB/s)
 [INFO] 
 [INFO] ----< org.cdisource.spring-cdisource:spring-cdisource-springbridge >----
 [INFO] Building Spring Bridge 1.17                                        [8/9]
@@ -1127,23 +1130,23 @@ Progress (1): 2.3 kB                    Uploaded to yarris-release: http://bui
  T E S T S
 -------------------------------------------------------
 Running org.cdisource.springintegration.SpringBridgeTest
-Mar 04, 2024 6:23:21 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+Mar 04, 2024 8:26:12 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
 INFO: WELD-000900: 3.1.9 (Final)
-Mar 04, 2024 6:23:22 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+Mar 04, 2024 8:26:13 PM org.jboss.weld.bootstrap.WeldStartup startContainer
 INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
-Mar 04, 2024 6:23:22 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
-INFO: WELD-ENV-002003: Weld SE container 61e7a26a-04d6-4d5a-8552-2f9c0db00472 initialized
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.733 sec
+Mar 04, 2024 8:26:13 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 4bf11a87-791b-44cc-b83a-8fd19970aadf initialized
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.147 sec
 Running org.cdisource.springintegration.SpringIntegrationExtentionTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
 Running org.cdisource.springintegration.SpringIntegrationUsingLookupExtentionTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
 
 Results :
 
 Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 
-Weld SE container 61e7a26a-04d6-4d5a-8552-2f9c0db00472 shut down by shutdown hook
+Weld SE container 4bf11a87-791b-44cc-b83a-8fd19970aadf shut down by shutdown hook
 [INFO] 
 [INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-springbridge ---
 [INFO] Building jar: /Users/nhope/git/spring-cdisource/spring/target/spring-cdisource-springbridge-1.17.jar
@@ -1218,14 +1221,15 @@ Weld SE container 61e7a26a-04d6-4d5a-8552-2f9c0db00472 shut down by shutdown hoo
 [INFO] 
 [INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ spring-cdisource-springbridge ---
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/1.17/spring-cdisource-springbridge-1.17.jar
-Progress (1): 4.1/23 kBProgress (1): 8.2/23 kBProgress (1): 12/23 kB Progress (1): 16/23 kBProgress (1): 20/23 kBProgress (1): 23 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/1.17/spring-cdisource-springbridge-1.17.jar (23 kB at 125 kB/s)
+Progress (1): 4.1/23 kBProgress (1): 8.2/23 kBProgress (1): 12/23 kB Progress (1): 16/23 kBProgress (1): 20/23 kBProgress (1): 23 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/1.17/spring-cdisource-springbridge-1.17.jar (23 kB at 132 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/1.17/spring-cdisource-springbridge-1.17.pom
-Progress (1): 4.1/7.5 kBProgress (1): 7.5 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/1.17/spring-cdisource-springbridge-1.17.pom (7.5 kB at 41 kB/s)
+Progress (1): 4.1/7.5 kBProgress (1): 7.5 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/1.17/spring-cdisource-springbridge-1.17.pom (7.5 kB at 42 kB/s)
 Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/maven-metadata.xml
+Progress (1): 337 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/maven-metadata.xml (337 B at 5.3 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/maven-metadata.xml
-Progress (1): 337 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/maven-metadata.xml (337 B at 1.8 kB/s)
+Progress (1): 337 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/maven-metadata.xml (337 B at 2.0 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/1.17/spring-cdisource-springbridge-1.17-sources.jar
-Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12/12 kB Progress (1): 12 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/1.17/spring-cdisource-springbridge-1.17-sources.jar (12 kB at 63 kB/s)
+Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12/12 kB Progress (1): 12 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-springbridge/1.17/spring-cdisource-springbridge-1.17-sources.jar (12 kB at 66 kB/s)
 [INFO] 
 [INFO] -----< org.cdisource.spring-cdisource:cdisource-build-aggregator >------
 [INFO] Building CDISource Project Build Aggregator 1.17                   [9/9]
@@ -1283,25 +1287,26 @@ Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12/12 kB Progress
 [INFO] 
 [INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ cdisource-build-aggregator ---
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/cdisource-build-aggregator/1.17/cdisource-build-aggregator-1.17.pom
-Progress (1): 1.7 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/cdisource-build-aggregator/1.17/cdisource-build-aggregator-1.17.pom (1.7 kB at 9.0 kB/s)
+Progress (1): 1.7 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/cdisource-build-aggregator/1.17/cdisource-build-aggregator-1.17.pom (1.7 kB at 9.9 kB/s)
 Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/cdisource-build-aggregator/maven-metadata.xml
+Progress (1): 334 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/cdisource-build-aggregator/maven-metadata.xml (334 B at 5.2 kB/s)
 Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/cdisource-build-aggregator/maven-metadata.xml
-Progress (1): 334 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/cdisource-build-aggregator/maven-metadata.xml (334 B at 1.8 kB/s)
+Progress (1): 334 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/cdisource-build-aggregator/maven-metadata.xml (334 B at 1.9 kB/s)
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for CDISource Project Build Aggregator 1.17:
 [INFO] 
-[INFO] CDI Advocate Parent ................................ SUCCESS [  1.230 s]
-[INFO] BeanContainer API .................................. SUCCESS [  3.131 s]
-[INFO] Beancontainer testing harness ...................... SUCCESS [  1.663 s]
-[INFO] Weld Bean Container Implementation ................. SUCCESS [  3.633 s]
-[INFO] JNDI Bean Container Implementation ................. SUCCESS [  1.662 s]
-[INFO] CDISource JUnit Test Runner ........................ SUCCESS [  2.608 s]
-[INFO] CDISource Web components ........................... SUCCESS [  2.070 s]
-[INFO] Spring Bridge ...................................... SUCCESS [  2.622 s]
-[INFO] CDISource Project Build Aggregator ................. SUCCESS [  0.431 s]
+[INFO] CDI Advocate Parent ................................ SUCCESS [  2.617 s]
+[INFO] BeanContainer API .................................. SUCCESS [  6.354 s]
+[INFO] Beancontainer testing harness ...................... SUCCESS [  2.108 s]
+[INFO] Weld Bean Container Implementation ................. SUCCESS [  5.989 s]
+[INFO] JNDI Bean Container Implementation ................. SUCCESS [  2.108 s]
+[INFO] CDISource JUnit Test Runner ........................ SUCCESS [  4.007 s]
+[INFO] CDISource Web components ........................... SUCCESS [  2.929 s]
+[INFO] Spring Bridge ...................................... SUCCESS [  3.476 s]
+[INFO] CDISource Project Build Aggregator ................. SUCCESS [  0.434 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  19.178 s
-[INFO] Finished at: 2024-03-04T18:23:24+11:00
+[INFO] Total time:  30.321 s
+[INFO] Finished at: 2024-03-04T20:26:15+11:00
 [INFO] ------------------------------------------------------------------------

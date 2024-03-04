@@ -1,0 +1,276 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.cdisource.spring-cdisource:cdisource-build-aggregator:pom:1.17
+[WARNING] 'parent.relativePath' of POM org.cdisource:cdisource-parent:1.17 (/Users/nhope/git/spring-cdisource/parent/pom.xml) points at org.cdisource.spring-cdisource:cdisource-build-aggregator instead of com.yarris.maven.pom:pom-standard, please verify your project structure @ org.cdisource:cdisource-parent:1.17, /Users/nhope/git/spring-cdisource/parent/pom.xml, line 8, column 10
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[WARNING] The project org.cdisource:cdisource-parent:pom:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[WARNING] The project org.cdisource.spring-cdisource:spring-cdisource-beancontainer-api:jar:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[WARNING] The project org.cdisource.spring-cdisource:spring-cdisource-beancontainer-weld-impl:jar:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[WARNING] The project org.cdisource.beancontainer:beancontainer-jndi-impl:jar:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[WARNING] The project org.cdisource.spring-cdisource:spring-cdisource-springbridge:jar:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[WARNING] The project org.cdisource.spring-cdisource:cdisource-build-aggregator:pom:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] CDI Advocate Parent                                                [pom]
+[INFO] BeanContainer API                                                  [jar]
+[INFO] Beancontainer testing harness                                      [jar]
+[INFO] Weld Bean Container Implementation                                 [jar]
+[INFO] JNDI Bean Container Implementation                                 [jar]
+[INFO] CDISource JUnit Test Runner                                        [jar]
+[INFO] CDISource Web components                                           [jar]
+[INFO] Spring Bridge                                                      [jar]
+[INFO] CDISource Project Build Aggregator                                 [pom]
+Downloading from nexus: http://buildserver.yarris.com:8081/nexus/content/groups/public/org/apache/maven/maven-artifact-plugin/3.3.0/maven-artifact-plugin-3.3.0.pom
+[WARNING] The POM for org.apache.maven:maven-artifact-plugin:jar:3.3.0 is missing, no dependency information available
+Downloading from nexus: http://buildserver.yarris.com:8081/nexus/content/groups/public/org/apache/maven/maven-artifact-plugin/3.3.0/maven-artifact-plugin-3.3.0.jar
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven:maven-artifact-plugin:3.3.0: Plugin org.apache.maven:maven-artifact-plugin:3.3.0 or one of its dependencies could not be resolved: Could not find artifact org.apache.maven:maven-artifact-plugin:jar:3.3.0 in nexus (http://buildserver.yarris.com:8081/nexus/content/groups/public)
+Downloading from nexus: http://buildserver.yarris.com:8081/nexus/content/groups/public/org/codehaus/mojo/exec-maven-plugin/1.1.1/exec-maven-plugin-1.1.1.pom
+Progress (1): 3.4/4.1 kBProgress (1): 4.1 kB                        Downloaded from nexus: http://buildserver.yarris.com:8081/nexus/content/groups/public/org/codehaus/mojo/exec-maven-plugin/1.1.1/exec-maven-plugin-1.1.1.pom (4.1 kB at 17 kB/s)
+Downloading from nexus: http://buildserver.yarris.com:8081/nexus/content/groups/public/org/codehaus/mojo/mojo-parent/20/mojo-parent-20.pom
+Progress (1): 4.1/18 kBProgress (1): 7.0/18 kBProgress (1): 11/18 kB Progress (1): 15/18 kBProgress (1): 18 kB                      Downloaded from nexus: http://buildserver.yarris.com:8081/nexus/content/groups/public/org/codehaus/mojo/mojo-parent/20/mojo-parent-20.pom (18 kB at 68 kB/s)
+Downloading from nexus: http://buildserver.yarris.com:8081/nexus/content/groups/public/org/codehaus/mojo/exec-maven-plugin/1.1.1/exec-maven-plugin-1.1.1.jar
+Progress (1): 4.1/34 kBProgress (1): 7.9/34 kBProgress (1): 12/34 kB Progress (1): 16/34 kBProgress (1): 19/34 kBProgress (1): 23/34 kBProgress (1): 28/34 kBProgress (1): 30/34 kBProgress (1): 34 kB                      Downloaded from nexus: http://buildserver.yarris.com:8081/nexus/content/groups/public/org/codehaus/mojo/exec-maven-plugin/1.1.1/exec-maven-plugin-1.1.1.jar (34 kB at 111 kB/s)
+[INFO] 
+[INFO] -------------------< org.cdisource:cdisource-parent >-------------------
+[INFO] Building CDI Advocate Parent 1.17                                  [1/9]
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] The POM for org.apache.maven:maven-artifact-plugin:jar:3.3.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven:maven-artifact-plugin:3.3.0: Plugin org.apache.maven:maven-artifact-plugin:3.3.0 or one of its dependencies could not be resolved: org.apache.maven:maven-artifact-plugin:jar:3.3.0 was not found in http://buildserver.yarris.com:8081/nexus/content/groups/public during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of nexus has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ cdisource-parent ---
+[WARNING] The artifact xml-apis:xml-apis:jar:2.0.2 has been relocated to xml-apis:xml-apis:jar:1.0.b2
+[INFO] org.cdisource:cdisource-parent:pom:1.17
+[INFO] \- jakarta.enterprise:jakarta.enterprise.cdi-api:jar:2.0.2:compile
+[INFO]    +- jakarta.el:jakarta.el-api:jar:3.0.3:compile
+[INFO]    +- jakarta.interceptor:jakarta.interceptor-api:jar:1.2.5:compile
+[INFO]    |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO]    |  \- jakarta.ejb:jakarta.ejb-api:jar:3.2.6:compile
+[INFO]    |     \- jakarta.transaction:jakarta.transaction-api:jar:1.3.2:compile
+[INFO]    \- jakarta.inject:jakarta.inject-api:jar:1.0:compile
+[INFO] 
+[INFO] --< org.cdisource.spring-cdisource:spring-cdisource-beancontainer-api >--
+[INFO] Building BeanContainer API 1.17                                    [2/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.apache.maven:maven-artifact-plugin:jar:3.3.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven:maven-artifact-plugin:3.3.0: Plugin org.apache.maven:maven-artifact-plugin:3.3.0 or one of its dependencies could not be resolved: org.apache.maven:maven-artifact-plugin:jar:3.3.0 was not found in http://buildserver.yarris.com:8081/nexus/content/groups/public during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of nexus has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ spring-cdisource-beancontainer-api ---
+[INFO] org.cdisource.spring-cdisource:spring-cdisource-beancontainer-api:jar:1.17
+[INFO] +- jakarta.enterprise:jakarta.enterprise.cdi-api:jar:2.0.2:compile
+[INFO] |  +- jakarta.el:jakarta.el-api:jar:3.0.3:compile
+[INFO] |  +- jakarta.interceptor:jakarta.interceptor-api:jar:1.2.5:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  \- jakarta.ejb:jakarta.ejb-api:jar:3.2.6:compile
+[INFO] |  |     \- jakarta.transaction:jakarta.transaction-api:jar:1.3.2:compile
+[INFO] |  \- jakarta.inject:jakarta.inject-api:jar:1.0:compile
+[INFO] \- junit:junit:jar:4.8.2:test
+[INFO] 
+[INFO] -----------< org.cdisource.beancontainer:beancontainer-test >-----------
+[INFO] Building Beancontainer testing harness 1.17                        [3/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.apache.maven:maven-artifact-plugin:jar:3.3.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven:maven-artifact-plugin:3.3.0: Plugin org.apache.maven:maven-artifact-plugin:3.3.0 or one of its dependencies could not be resolved: org.apache.maven:maven-artifact-plugin:jar:3.3.0 was not found in http://buildserver.yarris.com:8081/nexus/content/groups/public during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of nexus has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ beancontainer-test ---
+[INFO] org.cdisource.beancontainer:beancontainer-test:jar:1.17
+[INFO] +- junit:junit:jar:4.8.2:compile
+[INFO] +- org.cdisource.beancontainer:beancontainer-api:jar:1.17:compile
+[INFO] \- jakarta.enterprise:jakarta.enterprise.cdi-api:jar:2.0.2:compile
+[INFO]    +- jakarta.el:jakarta.el-api:jar:3.0.3:compile
+[INFO]    +- jakarta.interceptor:jakarta.interceptor-api:jar:1.2.5:compile
+[INFO]    |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO]    |  \- jakarta.ejb:jakarta.ejb-api:jar:3.2.6:compile
+[INFO]    |     \- jakarta.transaction:jakarta.transaction-api:jar:1.3.2:compile
+[INFO]    \- jakarta.inject:jakarta.inject-api:jar:1.0:compile
+[INFO] 
+[INFO] --< org.cdisource.spring-cdisource:spring-cdisource-beancontainer-weld-impl >--
+[INFO] Building Weld Bean Container Implementation 1.17                   [4/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.apache.maven:maven-artifact-plugin:jar:3.3.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven:maven-artifact-plugin:3.3.0: Plugin org.apache.maven:maven-artifact-plugin:3.3.0 or one of its dependencies could not be resolved: org.apache.maven:maven-artifact-plugin:jar:3.3.0 was not found in http://buildserver.yarris.com:8081/nexus/content/groups/public during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of nexus has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] org.cdisource.spring-cdisource:spring-cdisource-beancontainer-weld-impl:jar:1.17
+[INFO] +- org.jboss.weld.se:weld-se-core:jar:3.1.9.Final:compile
+[INFO] |  +- org.jboss.weld.environment:weld-environment-common:jar:3.1.9.Final:compile
+[INFO] |  |  \- org.jboss.weld:weld-core-impl:jar:3.1.9.Final:compile
+[INFO] |  |     +- org.jboss.weld:weld-api:jar:3.1.SP4:compile
+[INFO] |  |     +- org.jboss.weld:weld-spi:jar:3.1.SP4:compile
+[INFO] |  |     +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.3_spec:jar:2.0.1.Final:compile
+[INFO] |  |     +- org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:2.0.0.Final:compile
+[INFO] |  |     +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:2.0.0.Final:compile
+[INFO] |  |     \- org.jboss.logging:jboss-logging:jar:3.4.3.Final:compile
+[INFO] |  +- org.jboss.weld.probe:weld-probe-core:jar:3.1.9.Final:compile
+[INFO] |  \- org.jboss.classfilewriter:jboss-classfilewriter:jar:1.2.5.Final:compile
+[INFO] +- org.slf4j:slf4j-simple:jar:1.5.10:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.5.10:compile
+[INFO] +- org.cdisource.beancontainer:beancontainer-api:jar:1.17:compile
+[INFO] +- junit:junit:jar:4.8.2:test
+[INFO] +- org.cdisource.beancontainer:beancontainer-test:jar:1.17:test
+[INFO] \- jakarta.enterprise:jakarta.enterprise.cdi-api:jar:2.0.2:compile
+[INFO]    +- jakarta.el:jakarta.el-api:jar:3.0.3:compile
+[INFO]    +- jakarta.interceptor:jakarta.interceptor-api:jar:1.2.5:compile
+[INFO]    |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO]    |  \- jakarta.ejb:jakarta.ejb-api:jar:3.2.6:compile
+[INFO]    |     \- jakarta.transaction:jakarta.transaction-api:jar:1.3.2:compile
+[INFO]    \- jakarta.inject:jakarta.inject-api:jar:1.0:compile
+[INFO] 
+[INFO] --------< org.cdisource.beancontainer:beancontainer-jndi-impl >---------
+[INFO] Building JNDI Bean Container Implementation 1.17                   [5/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.apache.maven:maven-artifact-plugin:jar:3.3.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven:maven-artifact-plugin:3.3.0: Plugin org.apache.maven:maven-artifact-plugin:3.3.0 or one of its dependencies could not be resolved: org.apache.maven:maven-artifact-plugin:jar:3.3.0 was not found in http://buildserver.yarris.com:8081/nexus/content/groups/public during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of nexus has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ beancontainer-jndi-impl ---
+[INFO] org.cdisource.beancontainer:beancontainer-jndi-impl:jar:1.17
+[INFO] +- org.cdisource.beancontainer:beancontainer-api:jar:1.17:compile
+[INFO] +- junit:junit:jar:4.8.2:test
+[INFO] +- org.cdisource.beancontainer:beancontainer-test:jar:1.17:test
+[INFO] \- jakarta.enterprise:jakarta.enterprise.cdi-api:jar:2.0.2:compile
+[INFO]    +- jakarta.el:jakarta.el-api:jar:3.0.3:compile
+[INFO]    +- jakarta.interceptor:jakarta.interceptor-api:jar:1.2.5:compile
+[INFO]    |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO]    |  \- jakarta.ejb:jakarta.ejb-api:jar:3.2.6:compile
+[INFO]    |     \- jakarta.transaction:jakarta.transaction-api:jar:1.3.2:compile
+[INFO]    \- jakarta.inject:jakarta.inject-api:jar:1.0:compile
+[INFO] 
+[INFO] ---< org.cdisource.spring-cdisource:spring-cdisource-testing-junit >----
+[INFO] Building CDISource JUnit Test Runner 1.17                          [6/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.apache.maven:maven-artifact-plugin:jar:3.3.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven:maven-artifact-plugin:3.3.0: Plugin org.apache.maven:maven-artifact-plugin:3.3.0 or one of its dependencies could not be resolved: org.apache.maven:maven-artifact-plugin:jar:3.3.0 was not found in http://buildserver.yarris.com:8081/nexus/content/groups/public during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of nexus has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ spring-cdisource-testing-junit ---
+[INFO] org.cdisource.spring-cdisource:spring-cdisource-testing-junit:jar:1.17
+[INFO] +- junit:junit:jar:4.8.2:provided
+[INFO] +- org.cdisource.beancontainer:beancontainer-api:jar:1.17:compile
+[INFO] +- org.cdisource.beancontainer:beancontainer-weld-impl:jar:1.17:test
+[INFO] |  +- org.jboss.weld.se:weld-se-core:jar:3.1.9.Final:test
+[INFO] |  |  +- org.jboss.weld.environment:weld-environment-common:jar:3.1.9.Final:test
+[INFO] |  |  |  \- org.jboss.weld:weld-core-impl:jar:3.1.9.Final:test
+[INFO] |  |  |     +- org.jboss.weld:weld-api:jar:3.1.SP4:test
+[INFO] |  |  |     +- org.jboss.weld:weld-spi:jar:3.1.SP4:test
+[INFO] |  |  |     +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.3_spec:jar:2.0.1.Final:test
+[INFO] |  |  |     +- org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:2.0.0.Final:test
+[INFO] |  |  |     +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:2.0.0.Final:test
+[INFO] |  |  |     \- org.jboss.logging:jboss-logging:jar:3.4.3.Final:test
+[INFO] |  |  +- org.jboss.weld.probe:weld-probe-core:jar:3.1.9.Final:test
+[INFO] |  |  \- org.jboss.classfilewriter:jboss-classfilewriter:jar:1.2.5.Final:test
+[INFO] |  \- org.slf4j:slf4j-simple:jar:1.5.10:test
+[INFO] |     \- org.slf4j:slf4j-api:jar:1.5.10:test
+[INFO] \- jakarta.enterprise:jakarta.enterprise.cdi-api:jar:2.0.2:compile
+[INFO]    +- jakarta.el:jakarta.el-api:jar:3.0.3:compile
+[INFO]    +- jakarta.interceptor:jakarta.interceptor-api:jar:1.2.5:compile
+[INFO]    |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO]    |  \- jakarta.ejb:jakarta.ejb-api:jar:3.2.6:compile
+[INFO]    |     \- jakarta.transaction:jakarta.transaction-api:jar:1.3.2:compile
+[INFO]    \- jakarta.inject:jakarta.inject-api:jar:1.0:compile
+[INFO] 
+[INFO] --------< org.cdisource.spring-cdisource:spring-cdisource-web >---------
+[INFO] Building CDISource Web components 1.17                             [7/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.apache.maven:maven-artifact-plugin:jar:3.3.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven:maven-artifact-plugin:3.3.0: Plugin org.apache.maven:maven-artifact-plugin:3.3.0 or one of its dependencies could not be resolved: org.apache.maven:maven-artifact-plugin:jar:3.3.0 was not found in http://buildserver.yarris.com:8081/nexus/content/groups/public during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of nexus has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ spring-cdisource-web ---
+[INFO] org.cdisource.spring-cdisource:spring-cdisource-web:jar:1.17
+[INFO] +- org.cdisource.beancontainer:beancontainer-api:jar:1.17:provided
+[INFO] +- javax.el:el-api:jar:2.2:provided
+[INFO] +- junit:junit:jar:4.8.2:test
+[INFO] +- org.cdisource.beancontainer:beancontainer-test:jar:1.17:test
+[INFO] +- de.odysseus.juel:juel-impl:jar:2.2.2:test
+[INFO] |  \- de.odysseus.juel:juel-api:jar:2.2.2:test
+[INFO] +- de.odysseus.juel:juel-spi:jar:2.2.2:test
+[INFO] +- org.cdisource.beancontainer:beancontainer-weld-impl:jar:1.17:test
+[INFO] |  +- org.jboss.weld.se:weld-se-core:jar:3.1.9.Final:test
+[INFO] |  |  +- org.jboss.weld.environment:weld-environment-common:jar:3.1.9.Final:test
+[INFO] |  |  |  \- org.jboss.weld:weld-core-impl:jar:3.1.9.Final:test
+[INFO] |  |  |     +- org.jboss.weld:weld-api:jar:3.1.SP4:test
+[INFO] |  |  |     +- org.jboss.weld:weld-spi:jar:3.1.SP4:test
+[INFO] |  |  |     +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.3_spec:jar:2.0.1.Final:test
+[INFO] |  |  |     +- org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:2.0.0.Final:test
+[INFO] |  |  |     +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:2.0.0.Final:test
+[INFO] |  |  |     \- org.jboss.logging:jboss-logging:jar:3.4.3.Final:test
+[INFO] |  |  +- org.jboss.weld.probe:weld-probe-core:jar:3.1.9.Final:test
+[INFO] |  |  \- org.jboss.classfilewriter:jboss-classfilewriter:jar:1.2.5.Final:test
+[INFO] |  \- org.slf4j:slf4j-simple:jar:1.5.10:test
+[INFO] |     \- org.slf4j:slf4j-api:jar:1.5.10:test
+[INFO] +- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:provided
+[INFO] \- jakarta.enterprise:jakarta.enterprise.cdi-api:jar:2.0.2:compile
+[INFO]    +- jakarta.el:jakarta.el-api:jar:3.0.3:compile
+[INFO]    +- jakarta.interceptor:jakarta.interceptor-api:jar:1.2.5:compile
+[INFO]    |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO]    |  \- jakarta.ejb:jakarta.ejb-api:jar:3.2.6:compile
+[INFO]    |     \- jakarta.transaction:jakarta.transaction-api:jar:1.3.2:compile
+[INFO]    \- jakarta.inject:jakarta.inject-api:jar:1.0:compile
+[INFO] 
+[INFO] ----< org.cdisource.spring-cdisource:spring-cdisource-springbridge >----
+[INFO] Building Spring Bridge 1.17                                        [8/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.apache.maven:maven-artifact-plugin:jar:3.3.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven:maven-artifact-plugin:3.3.0: Plugin org.apache.maven:maven-artifact-plugin:3.3.0 or one of its dependencies could not be resolved: org.apache.maven:maven-artifact-plugin:jar:3.3.0 was not found in http://buildserver.yarris.com:8081/nexus/content/groups/public during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of nexus has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ spring-cdisource-springbridge ---
+[INFO] org.cdisource.spring-cdisource:spring-cdisource-springbridge:jar:1.17
+[INFO] +- jakarta.enterprise:jakarta.enterprise.cdi-api:jar:2.0.2:compile
+[INFO] |  +- jakarta.el:jakarta.el-api:jar:3.0.3:compile
+[INFO] |  +- jakarta.interceptor:jakarta.interceptor-api:jar:1.2.5:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  |  \- jakarta.ejb:jakarta.ejb-api:jar:3.2.6:compile
+[INFO] |  |     \- jakarta.transaction:jakarta.transaction-api:jar:1.3.2:compile
+[INFO] |  \- jakarta.inject:jakarta.inject-api:jar:1.0:compile
+[INFO] +- junit:junit:jar:4.8.2:test
+[INFO] +- org.aspectj:aspectjweaver:jar:1.9.9.1:compile
+[INFO] +- org.aspectj:aspectjrt:jar:1.9.9.1:compile
+[INFO] +- org.springframework:spring-test:jar:5.3.26:test
+[INFO] +- org.springframework:spring-context:jar:5.3.26:compile
+[INFO] |  +- org.springframework:spring-beans:jar:5.3.26:compile
+[INFO] |  +- org.springframework:spring-core:jar:5.3.26:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.3.26:compile
+[INFO] |  \- org.springframework:spring-expression:jar:5.3.26:compile
+[INFO] +- org.springframework:spring-aop:jar:5.3.26:compile
+[INFO] +- org.springframework:spring-aspects:jar:5.3.26:compile
+[INFO] +- org.springframework:spring-web:jar:5.3.26:compile
+[INFO] +- org.springframework:spring-tx:jar:5.3.26:compile
+[INFO] +- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:provided
+[INFO] +- org.cdisource.beancontainer:beancontainer-api:jar:1.17:compile
+[INFO] \- org.cdisource.testing:cdisource-testing-junit:jar:1.17:test
+[INFO] 
+[INFO] -----< org.cdisource.spring-cdisource:cdisource-build-aggregator >------
+[INFO] Building CDISource Project Build Aggregator 1.17                   [9/9]
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] The POM for org.apache.maven:maven-artifact-plugin:jar:3.3.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven:maven-artifact-plugin:3.3.0: Plugin org.apache.maven:maven-artifact-plugin:3.3.0 or one of its dependencies could not be resolved: org.apache.maven:maven-artifact-plugin:jar:3.3.0 was not found in http://buildserver.yarris.com:8081/nexus/content/groups/public during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of nexus has elapsed or updates are forced
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ cdisource-build-aggregator ---
+[INFO] org.cdisource.spring-cdisource:cdisource-build-aggregator:pom:1.17
+[INFO] \- jakarta.enterprise:jakarta.enterprise.cdi-api:jar:2.0.2:compile
+[INFO]    +- jakarta.el:jakarta.el-api:jar:3.0.3:compile
+[INFO]    +- jakarta.interceptor:jakarta.interceptor-api:jar:1.2.5:compile
+[INFO]    |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO]    |  \- jakarta.ejb:jakarta.ejb-api:jar:3.2.6:compile
+[INFO]    |     \- jakarta.transaction:jakarta.transaction-api:jar:1.3.2:compile
+[INFO]    \- jakarta.inject:jakarta.inject-api:jar:1.0:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for CDISource Project Build Aggregator 1.17:
+[INFO] 
+[INFO] CDI Advocate Parent ................................ SUCCESS [  0.548 s]
+[INFO] BeanContainer API .................................. SUCCESS [  0.026 s]
+[INFO] Beancontainer testing harness ...................... SUCCESS [  0.018 s]
+[INFO] Weld Bean Container Implementation ................. SUCCESS [  0.220 s]
+[INFO] JNDI Bean Container Implementation ................. SUCCESS [  0.007 s]
+[INFO] CDISource JUnit Test Runner ........................ SUCCESS [  0.077 s]
+[INFO] CDISource Web components ........................... SUCCESS [  0.069 s]
+[INFO] Spring Bridge ...................................... SUCCESS [  0.043 s]
+[INFO] CDISource Project Build Aggregator ................. SUCCESS [  0.004 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.072 s
+[INFO] Finished at: 2024-03-04T18:50:52+11:00
+[INFO] ------------------------------------------------------------------------

@@ -8,11 +8,16 @@ build with:
     ./mvn.sh
 
 Unfortunately pom.xml s are not set up allow easy change of version / adding of -SNAPSHOT so had
-to do the following manually:
+to do the following manually (and also changed all generated .jar artifacts to have prefix
+spring-cdisource-*.jar):
     vi `find . -name pom.xml -exec grep -Hl 1.0-SNAPSHOT {} \;`
     :%s/1.0-SNAPSHOT/1.17/g
 
-
+---------
+After getting build and all unit tests passing (see below) ended up with some .jar version clashes
+when attempted to include above 4 jars in consol pom.xml :
+    - velocity-1.5.jar => velocity-engine-core-2.3.jar
+    - slf4j-simple-1.5.10.jar => slf4j-api-1.7.36.jar
 
 
 ----------
