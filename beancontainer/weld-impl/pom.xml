@@ -33,6 +33,7 @@
          <groupId>org.slf4j</groupId>
          <artifactId>slf4j-simple</artifactId>
          <version>1.7.36</version> <!-- @yarris <version>1.5.10</version> -->
+        	<scope>test</scope>
       </dependency>
         <dependency>
             <groupId>org.cdisource.beancontainer</groupId>
