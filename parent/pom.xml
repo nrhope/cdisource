@@ -6,9 +6,12 @@
 	<version>1.0-SNAPSHOT</version>
 
 	<parent>
-		<groupId>org.sonatype.oss</groupId>
+        <groupId>com.yarris.maven.pom</groupId>
+        <artifactId>pom-standard</artifactId>
+        <version>17.0-8</version>
+		<!--groupId>org.sonatype.oss</groupId> @yarris
 		<artifactId>oss-parent</artifactId>
-		<version>3</version>
+		<version>3</version-->
 	</parent>
 
 	<name>CDI Advocate Parent</name>
@@ -591,7 +594,7 @@
 
 	<!-- SCM and Distribution Management -->
 
-	<distributionManagement>
+	<!--distributionManagement> @yarris
 		<repository>
 			<id>cdi.advocate</id>
 			<name>CDI Advocacy</name>
@@ -616,5 +619,5 @@
 			<name>Java.net repository for common APIs</name>
 			<url>http://download.java.net/maven/2/</url>
 		</repository>
-	</repositories>
+	</repositories-->
 </project>
