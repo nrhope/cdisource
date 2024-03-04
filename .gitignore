@@ -6,4 +6,5 @@ target/
 release.properties
 *.releaseBackup
 *.versionsBackup
+yarris-mods.tgz
 

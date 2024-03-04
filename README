@@ -1,3 +1,9 @@
+Forked from https://github.com/CDISource/cdisource.git
+    referenced in this blog
+https://rick-hightower.blogspot.com/2011/04/cdi-and-spring-living-in-harmony.html
+    and then updated to java17 and latest relevant lib versions (refer ./TODO_yarris.txt), and
+    removed all impls except for -weld-
+
 This is CDI Advocate repository.
 Currently it hosts CDI beanContainer.
 CDI beanContainer is a small wrapper around Caucho Resin Candi  and JBoss Seam Weld.

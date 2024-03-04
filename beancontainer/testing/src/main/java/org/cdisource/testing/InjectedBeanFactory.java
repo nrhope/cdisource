@@ -2,7 +2,7 @@ package org.cdisource.testing;
 
 import javax.enterprise.inject.Produces;
 
-@SomeOtherQualifier
+@SomeOtherQualifier // @yarris, commenting out doesn't affect testLookupProducer() failure
 public class InjectedBeanFactory {
     @Produces @SomeOtherQualifier InjectedBean createTransport() {
         return new InjectedBean();

@@ -31,11 +31,11 @@
    <modules>
       <module>parent</module>
       <module>beancontainer/api</module>
-      <module>beancontainer/resin-impl</module>
       <module>beancontainer/weld-impl</module>
       <module>beancontainer/testing</module>
-      <module>beancontainer/openwebbeans-impl</module>
       <module>beancontainer/jndi-impl</module>
+      <!--module>beancontainer/resin-impl</module>
+      <module>beancontainer/openwebbeans-impl</module-->
       <module>testing/junit</module>
       <module>web</module>
       <module>spring</module>

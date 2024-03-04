@@ -97,6 +97,9 @@ public class AbstractBeanContainerTest {
 		assertTrue("Cannot locate simpleBean ", beanContainer.getBeanNamespace().contains("simpleBean"));
 	}
 
+  /* @yarris @TODO fails with:
+org.jboss.weld.exceptions.IllegalArgumentException: WELD-001305: The given type class org.cdisource.testing.InjectedBeanFactory is not a type of the bean Producer Method [InjectedBean] with qualifiers [@SomeOtherQualifier @Any] declared as [[BackedAnnotatedMethod] @Produces @SomeOtherQualifier org.cdisource.testing.InjectedBeanFactory.createTransport()] */
+
 	@Test
 	public void testLookupProducer() {
 		InjectedBean beanByType = beanContainer.getBeanByType(InjectedBean.class, new SomeOtherQualifierQualifier());

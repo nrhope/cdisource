@@ -84,7 +84,7 @@ public abstract class AbstractBeanContainer implements BeanContainer, BeanManage
 		CreationalContext<?> context = beanManager
 				.createCreationalContext(bean);
 		@SuppressWarnings("unchecked")
-		T result = (T) beanManager.getReference(bean, bean.getBeanClass(),
+		T result = (T) beanManager.getReference(bean, type, // @yarris: this is wrong :     bean.getBeanClass(),
 				context);
 		return result;
 	}

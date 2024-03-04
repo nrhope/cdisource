@@ -1,0 +1,65 @@
+files needed by clients:
+  ./beancontainer/api/target/beancontainer-api-1.0-SNAPSHOT.jar
+  ./spring/target/springbridge-1.0-SNAPSHOT.jar
+  ./web/target/cdisource-web-1.0-SNAPSHOT.jar
+  ./beancontainer/weld-impl/target/beancontainer-weld-impl-1.0-SNAPSHOT.jar
+
+
+build with:
+    ./mvn.sh
+
+Have to solve two probs:
+    1. disabled test (refer errors/*.txt) => fixed by changing code incorrectly using bean.getBeanClass() in ...
+
+testLookupProducer(org.cdisource.beancontainer.WeldBeanContainerTest)  Time elapsed: 0.033 sec  <<< ERROR!
+org.jboss.weld.exceptions.IllegalArgumentException: WELD-001305: The given type class org.cdisource.testing.InjectedBeanFactory is not a type of the bean Producer Method [InjectedBean] with qualifiers [@SomeOtherQualifier @Any] declared as [[BackedAnnotatedMethod] @Produces @SomeOtherQualifier org.cdisource.testing.InjectedBeanFactory.createTransport()]
+  at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:712)
+  at org.jboss.weld.util.ForwardingBeanManager.getReference(ForwardingBeanManager.java:64)
+  at org.jboss.weld.bean.builtin.BeanManagerProxy.getReference(BeanManagerProxy.java:87)
+  at org.cdisource.beancontainer.AbstractBeanContainer.getBeanByType(AbstractBeanContainer.java:87)
+  at org.cdisource.testing.AbstractBeanContainerTest.testLookupProducer(AbstractBeanContainerTest.java:105)
+      - relates to calling 
+------- ./beancontainer/testing/src/main/java/org/cdisource/testing/InjectedBeanFactory.java:
+package org.cdisource.testing;
+
+import javax.enterprise.inject.Produces;
+
+@SomeOtherQualifier
+public class InjectedBeanFactory {
+    @Produces @SomeOtherQualifier InjectedBean createTransport() {
+        return new InjectedBean();
+    }
+}
+------- ./beancontainer/testing/src/main/java/org/cdisource/testing/AbstractBeanContainerTest.java:
+  @Test
+  public void testLookupProducer() {
+    InjectedBean beanByType = beanContainer.getBeanByType(InjectedBean.class, new SomeOtherQualifierQualifier());
+    assertNotNull(beanByType);
+  }
+------
+      - seems to be expecting that InjectedBean should implement/extend org.cdisource.testing.InjectedBeanFactory, but
+        it doesn't
+        - is the problem that org.cdisource.beancontainer.AbstractBeanContainer.getBeanByType(AbstractBeanContainer.java:87) is returning the InjectedBeanFactory instead of the expected newly created InjectedBean ? => need to debug this stack:
+  at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:712)
+  at org.jboss.weld.util.ForwardingBeanManager.getReference(ForwardingBeanManager.java:64)
+  at org.jboss.weld.bean.builtin.BeanManagerProxy.getReference(BeanManagerProxy.java:87)
+  at org.cdisource.beancontainer.AbstractBeanContainer.getBeanByType(AbstractBeanContainer.java:87)
+  at org.cdisource.testing.AbstractBeanContainerTest.testLookupProducer(AbstractBeanContainerTest.java:105)
+
+      - is it related to fact that @SomeOtherQualifier appears twice, on both the class and createTransport() ? => NO
+
+    2. 3 probs of this form: => fixed by adding @Qualifier // @yarris to public @interface SpringLookup, because WELD demands it be present (and we don't intend to use that annotation anyway, as mpore powerful @Spring works for out case)
+
+      - seems to not like @org.cdisource.springintegration.SpringLookup("fooBar2") qualifier:
+$ find . -name '*.java' -exec grep -H fooBar2 {} \;
+./spring/src/test/java/org/cdisource/springintegration/CdiBeanThatHasSpringLookupInjection.java:  @Inject @SpringLookup("fooBar2")
+./spring/src/test/java/org/cdisource/springintegration/CdiBeanThatHasSpringLookupInjection.java:  @Inject @SpringLookup("fooBar2")
+
+-------------------------------------------------------------------------------
+Test set: org.cdisource.springintegration.SpringIntegrationExtentionTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.051 sec <<< FAILURE!
+org.cdisource.springintegration.SpringIntegrationExtentionTest  Time elapsed: 0.058 sec  <<< ERROR!
+org.cdisource.beancontainer.BeanContainerInitializationException: Unable to start BeanContainer : Exception List with 1 exceptions:
+Exception 0 :
+org.jboss.weld.exceptions.DefinitionException: WELD-001111: interface org.cdisource.springintegration.SpringLookup defined on SpringBean(hc=41031373, hc=1435229983, annotatedType=null, qualifiers=[@org.cdisource.springintegration.SpringLookup("fooBar2")]) is not a qualifier
