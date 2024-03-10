@@ -14,6 +14,12 @@ spring-cdisource-*.jar):
     :%s/1.0-SNAPSHOT/1.17/g
 
 ---------
+trying to get good logging out of CDI, will this help (slf4j)?:
+org.jboss.weld.Bean.level = FINEST 
+
+org.jboss.weld.bean.ManagedBean
+
+---------
 After getting build and all unit tests passing (see below) ended up with some .jar version clashes
 when attempted to include above 4 jars in consol pom.xml :
     - velocity-1.5.jar => velocity-engine-core-2.3.jar

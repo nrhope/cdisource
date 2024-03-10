@@ -19,7 +19,7 @@
 
 
    <!-- Minimal project metadata, for more see parent/pom.xml -->
-   <description>Base API for common bean container</description>
+   <description>Base API for common bean container (Allow Spring to reference beans defined in CDI)</description>
    <dependencies>
    	<!--dependency>
    		<groupId>javax.enterprise</groupId>

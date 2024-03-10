@@ -7,4 +7,5 @@ release.properties
 *.releaseBackup
 *.versionsBackup
 yarris-mods.tgz
-
+*.swp
+*.try

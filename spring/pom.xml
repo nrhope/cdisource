@@ -20,7 +20,7 @@
 
 
 	<!-- Minimal project metadata, for more see parent/pom.xml -->
-	<description>Spring CDI bridge to bridge the two technologies</description>
+	<description>Spring CDI bridge to bridge the two technologies (Allow CDI to reference beans defined in Spring)</description>
 
 	<properties>
 		<spring.version>5.3.26</spring.version>

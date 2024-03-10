@@ -112,10 +112,13 @@ public class LogFactoryManager {
 
 			/* If the property was not found, use the service loader. */
 			if (logFactoryClassname == null) {
+        // logFactoryClassname = "org.cdisource.logging.JDKLoggerFactory"; // @yarris: service loader breaks WildFly 26
+        ///*
 				ServiceLoader<LogFactory> instances = ServiceLoader.load(LogFactory.class);
 				if (instances.iterator().hasNext()) {
 					return instances.iterator().next();
 				}
+        //*/
 			}
 
 			if (logFactoryClassname == null) {

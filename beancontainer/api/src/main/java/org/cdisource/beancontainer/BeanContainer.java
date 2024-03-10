@@ -18,6 +18,9 @@ import org.cdisource.beancontainer.namespace.BeanNamespace;
  */
 public interface BeanContainer {
 
+  /** @yarris Define prefix to allow easy grepping of logs for bean registering in both CDI <=> Spring directions. */
+//  public static final String BEAN_REG_LOG_PREFIX = "spring-cdisource: registering bean: from CDI => Spring "; // @TODO can't do this unless can find where registration happens / belongs
+
 	/**
 	 * Look up a bean by name. You should really consider using, getBeanByType
 	 * since this is the type safe version.

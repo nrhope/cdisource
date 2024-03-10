@@ -1,6 +1,6 @@
 #!/bin/bash
-mvn clean install -Pweld
-# mvn clean install deploy -Pweld
+mvn clean install deploy -Pweld
+# mvn clean install -Pweld
 
 exit 0
 
