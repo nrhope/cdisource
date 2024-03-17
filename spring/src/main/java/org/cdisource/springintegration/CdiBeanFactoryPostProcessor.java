@@ -5,6 +5,7 @@ import java.lang.reflect.Type;
 import java.util.Set;
 
 import javax.enterprise.inject.spi.Bean;
+import javax.enterprise.inject.spi.InjectionPoint;
 import javax.inject.Named;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanDefinition;
@@ -25,7 +26,7 @@ public static final String BEAN_LOG_PREFIX = "spring-cdisource: ";
 	
 	private boolean useLongName;
 	
-	private static String 	beanNamePrefix = "edenDocConfig";
+	private static String 	beanNamePrefix = "producerBean"; // "edenDocConfig";
 
 	private BeanManagerLocationUtil beanManagerLocationUtil = new BeanManagerLocationUtil();
 
@@ -49,15 +50,29 @@ public static final String BEAN_LOG_PREFIX = "spring-cdisource: ";
 				logger.debug(BEAN_LOG_PREFIX + " skipping bean " + bean + " (name='Spring Injection')");
 				continue;
 			}
+			if (bean instanceof InjectionPoint) { // @TODO class org.jboss.weld.bean.ProducerMethod
+				// Need special handling to register a String Producer called mailHost" for 
+				// [[BackedAnnotatedMethod] @Produces @Named public org.cdisource.springintegration.ProducerBean.mailHost()]
+
+			}
+	        logger.debug("bean types = {}", bean.getTypes());
+	        Class<?> beanClass = getBeanClass(bean);
 			BeanDefinitionBuilder definition = BeanDefinitionBuilder.rootBeanDefinition(CdiFactoryBean.class)
-						.addPropertyValue("beanClass", bean.getBeanClass())
+						.addPropertyValue("beanClass", beanClass)
 						.addPropertyValue("beanManager", beanManagerLocationUtil.beanManager())
+						.addPropertyValue("qualifiers", bean.getQualifiers())
 						.setLazyInit(true);
 			
 			BeanDefinition	existingSpringBeanDef = null;
 			Object			existingSpringBean = null;
 			Exception	ignoreEx = null;
 			String		beanName = Introspector.decapitalize(bean.getBeanClass().getSimpleName()); // origName    Introspector.decapitalize(name);
+			/* @TODO doesn't look for namedAnnotation in the correct place on
+			 * bean=Producer Method [String] with qualifiers [@Default @Any @Named] declared as [[BackedAnnotatedMethod] @Produces @Named public org.cdisource.springintegration.ProducerBean.mailHost()]
+			 * 		looks like maybe should look on annotatedMethod instead ...? or on producer.method annotations and also to get type for
+			 * 		Spring bean registration
+			 * 	cdiBeanName is correct="mailHost"
+			 */
 			Named 		namedAnnotation = (Named) bean.getBeanClass().getAnnotation(Named.class);
 			String		namedAnnotationValue = null;
 			String		lookupName = beanName;
@@ -105,13 +120,26 @@ public static final String BEAN_LOG_PREFIX = "spring-cdisource: ";
 				String		name = (namedAnnotationValue != null ? namedAnnotationValue : generateNameBasedOnClassName(bean));
 				
 //				String name = generateName(bean); // @yarris : get null here for CreateOrderWorkflowServiceFactoryBean
-				logger.severe(BEAN_REG_LOG_PREFIX + " name=" + name + " (bean=" + definition.getBeanDefinition() + ") [bean=" + existingSpringBean + ", def=" + existingSpringBeanDef);
+				logger.severe(BEAN_REG_LOG_PREFIX + " name=" + name + " (bean=" + beanClass + ") [exisiting_def=" + (existingSpringBeanDef != null) + "]");
 				factory.registerBeanDefinition(name, definition.getBeanDefinition());
 			} else {
-				logger.severe(BEAN_LOG_PREFIX +  " skipping bean '" + lookupName +"' as already exists in Spring (" + existingSpringBean + ")");
+				logger.severe(BEAN_LOG_PREFIX +  " skipping bean '" + lookupName +"' as already exists in Spring");
 			}
 		}
 	}
+
+  private Class<?> getBeanClass(Bean<?> bean) {
+    Class<?> klass = Object.class;
+    for (Type type : bean.getTypes()) {
+      if (type instanceof Class) {
+        Class<?> currentClass = (Class<?>) type;
+        if (klass.isAssignableFrom(currentClass)) {
+          klass = currentClass;
+        }
+      }
+    }
+    return klass;
+  }
 
 	/*
 	private String generateName(Bean<?> bean) { // @yarris: moving logic into postProcessBeanFactory() main body as more complicated then this...

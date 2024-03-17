@@ -9,7 +9,7 @@
 	
 	<listener>
 	
-		<display-name>Spring CDI Bridge</display-name>
+		<display-name>SpringCDIBridge</display-name>
 		
 		<listener-class>org.cdisource.springintegration.servletsupport.ApplicationContextFinderServletContextListener</listener-class>
 				

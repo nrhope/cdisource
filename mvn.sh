@@ -1,5 +1,6 @@
-#!/bin/bash
-mvn clean install deploy -Pweld
+#!/bin/bash -x
+mvn clean install deploy -Pweld 2>&1 | tee mvn_log/mvn.log
+mvn dependency:copy-dependencies
 # mvn clean install -Pweld
 
 exit 0

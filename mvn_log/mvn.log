@@ -1,0 +1,1276 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.cdisource.spring-cdisource:cdisource-build-aggregator:pom:1.17
+[WARNING] 'parent.relativePath' of POM org.cdisource:cdisource-parent:1.17 (/Users/nhope/git/spring-cdisource/parent/pom.xml) points at org.cdisource.spring-cdisource:cdisource-build-aggregator instead of com.yarris.maven.pom:pom-standard, please verify your project structure @ org.cdisource:cdisource-parent:1.17, /Users/nhope/git/spring-cdisource/parent/pom.xml, line 8, column 10
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[WARNING] The project org.cdisource:cdisource-parent:pom:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[WARNING] The project org.cdisource.spring-cdisource:spring-cdisource-beancontainer-api:jar:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[WARNING] The project org.cdisource.spring-cdisource:spring-cdisource-beancontainer-weld-impl:jar:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[WARNING] The project org.cdisource.beancontainer:beancontainer-jndi-impl:jar:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[WARNING] The project org.cdisource.spring-cdisource:spring-cdisource-springbridge:jar:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[WARNING] The project org.cdisource.spring-cdisource:cdisource-build-aggregator:pom:1.17 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] CDI Advocate Parent                                                [pom]
+[INFO] BeanContainer API                                                  [jar]
+[INFO] Beancontainer testing harness                                      [jar]
+[INFO] Weld Bean Container Implementation                                 [jar]
+[INFO] JNDI Bean Container Implementation                                 [jar]
+[INFO] CDISource JUnit Test Runner                                        [jar]
+[INFO] CDISource Web components                                           [jar]
+[INFO] Spring Bridge                                                      [jar]
+[INFO] CDISource Project Build Aggregator                                 [pom]
+[INFO] 
+[INFO] -------------------< org.cdisource:cdisource-parent >-------------------
+[INFO] Building CDI Advocate Parent 1.17                                  [1/9]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ cdisource-parent ---
+[INFO] Deleting /Users/nhope/git/spring-cdisource/parent/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ cdisource-parent ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ cdisource-parent ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ cdisource-parent ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ cdisource-parent >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ cdisource-parent ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ cdisource-parent ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ cdisource-parent ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ cdisource-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ cdisource-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ cdisource-parent ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/parent/pom.xml to /Users/nhope/.m2/repository/org/cdisource/cdisource-parent/1.17/cdisource-parent-1.17.pom
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ cdisource-parent ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ cdisource-parent ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ cdisource-parent ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ cdisource-parent >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ cdisource-parent ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ cdisource-parent ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ cdisource-parent ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ cdisource-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ cdisource-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ cdisource-parent ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/parent/pom.xml to /Users/nhope/.m2/repository/org/cdisource/cdisource-parent/1.17/cdisource-parent-1.17.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ cdisource-parent ---
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/1.17/cdisource-parent-1.17.pom
+Progress (1): 4.1/18 kBProgress (1): 8.2/18 kBProgress (1): 12/18 kB Progress (1): 16/18 kBProgress (1): 18 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/1.17/cdisource-parent-1.17.pom (18 kB at 39 kB/s)
+Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/maven-metadata.xml
+Progress (1): 307 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/maven-metadata.xml (307 B at 4.1 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/maven-metadata.xml
+Progress (1): 307 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/cdisource-parent/maven-metadata.xml (307 B at 1.6 kB/s)
+[INFO] 
+[INFO] --< org.cdisource.spring-cdisource:spring-cdisource-beancontainer-api >--
+[INFO] Building BeanContainer API 1.17                                    [2/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ spring-cdisource-beancontainer-api ---
+[INFO] Deleting /Users/nhope/git/spring-cdisource/beancontainer/api/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-beancontainer-api ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-beancontainer-api ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-beancontainer-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-beancontainer-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-beancontainer-api ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 19 source files with javac [debug deprecation target 17] to target/classes
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/main/java/org/cdisource/logging/LogFactoryManager.java:[135,50] newInstance() in java.lang.Class has been deprecated
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/main/java/org/cdisource/beancontainer/BeanContainerManager.java:[228,53] newInstance() in java.lang.Class has been deprecated
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-beancontainer-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-beancontainer-api ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug deprecation target 17] to target/test-classes
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[59,33] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[69,33] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[87,43] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[88,45] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[97,46] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[101,30] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[108,41] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[109,41] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[144,37] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[145,37] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[155,39] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[156,39] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ spring-cdisource-beancontainer-api ---
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/beancontainer/api/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.cdisource.beancontainer.namespace.BeanNamespaceTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+
+Results :
+
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-beancontainer-api ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/api/target/spring-cdisource-beancontainer-api-1.17.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ spring-cdisource-beancontainer-api >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-beancontainer-api ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-beancontainer-api ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-beancontainer-api ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ spring-cdisource-beancontainer-api <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ spring-cdisource-beancontainer-api ---
+[INFO] META-INF already added, skipping
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/api/target/spring-cdisource-beancontainer-api-1.17-sources.jar
+[INFO] META-INF already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ spring-cdisource-beancontainer-api ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/api/target/spring-cdisource-beancontainer-api-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/api/pom.xml to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/api/target/spring-cdisource-beancontainer-api-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-beancontainer-api ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-beancontainer-api ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-beancontainer-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-beancontainer-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-beancontainer-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-beancontainer-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-beancontainer-api ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug deprecation target 17] to target/test-classes
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[59,33] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[69,33] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[87,43] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[88,45] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[97,46] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[101,30] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[108,41] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[109,41] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[144,37] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[145,37] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[155,39] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /Users/nhope/git/spring-cdisource/beancontainer/api/src/test/java/org/cdisource/beancontainer/namespace/BeanNamespaceTest.java:[156,39] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ spring-cdisource-beancontainer-api ---
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/beancontainer/api/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.cdisource.beancontainer.namespace.BeanNamespaceTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+
+Results :
+
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-beancontainer-api ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ spring-cdisource-beancontainer-api >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-beancontainer-api ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-beancontainer-api ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-beancontainer-api ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ spring-cdisource-beancontainer-api <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ spring-cdisource-beancontainer-api ---
+[INFO] META-INF already added, skipping
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/api/target/spring-cdisource-beancontainer-api-1.17-sources.jar
+[INFO] META-INF already added, skipping
+[WARNING] artifact org.cdisource.spring-cdisource:spring-cdisource-beancontainer-api:java-source:sources:1.17 already attached, replace previous instance
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ spring-cdisource-beancontainer-api ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/api/target/spring-cdisource-beancontainer-api-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/api/pom.xml to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/api/target/spring-cdisource-beancontainer-api-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ spring-cdisource-beancontainer-api ---
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.jar
+Progress (1): 4.1/24 kBProgress (1): 8.2/24 kBProgress (1): 12/24 kB Progress (1): 16/24 kBProgress (1): 20/24 kBProgress (1): 24 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.jar (24 kB at 125 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.pom
+Progress (1): 1.5 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17.pom (1.5 kB at 8.4 kB/s)
+Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/maven-metadata.xml
+Progress (1): 342 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/maven-metadata.xml (342 B at 5.4 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/maven-metadata.xml
+Progress (1): 342 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/maven-metadata.xml (342 B at 1.9 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17-sources.jar
+Progress (1): 4.1/17 kBProgress (1): 8.2/17 kBProgress (1): 12/17 kB Progress (1): 16/17 kBProgress (1): 17 kB                      Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-api/1.17/spring-cdisource-beancontainer-api-1.17-sources.jar (17 kB at 88 kB/s)
+[INFO] 
+[INFO] -----------< org.cdisource.beancontainer:beancontainer-test >-----------
+[INFO] Building Beancontainer testing harness 1.17                        [3/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ beancontainer-test ---
+[INFO] Deleting /Users/nhope/git/spring-cdisource/beancontainer/testing/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ beancontainer-test ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ beancontainer-test ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ beancontainer-test ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ beancontainer-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ beancontainer-test ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 10 source files with javac [debug deprecation target 17] to target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ beancontainer-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/beancontainer/testing/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ beancontainer-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ beancontainer-test ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/beancontainer/testing/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ beancontainer-test ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/testing/target/beancontainer-test-1.17.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ beancontainer-test >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ beancontainer-test ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ beancontainer-test ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ beancontainer-test ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ beancontainer-test <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ beancontainer-test ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/testing/target/beancontainer-test-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ beancontainer-test ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/testing/target/beancontainer-test-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/testing/pom.xml to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/testing/target/beancontainer-test-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ beancontainer-test ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ beancontainer-test ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ beancontainer-test ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ beancontainer-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ beancontainer-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ beancontainer-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/beancontainer/testing/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ beancontainer-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ beancontainer-test ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/beancontainer/testing/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ beancontainer-test ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ beancontainer-test >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ beancontainer-test ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ beancontainer-test ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ beancontainer-test ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ beancontainer-test <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ beancontainer-test ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/testing/target/beancontainer-test-1.17-sources.jar
+[WARNING] artifact org.cdisource.beancontainer:beancontainer-test:java-source:sources:1.17 already attached, replace previous instance
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ beancontainer-test ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/testing/target/beancontainer-test-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/testing/pom.xml to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/testing/target/beancontainer-test-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ beancontainer-test ---
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.jar
+Progress (1): 4.1/9.0 kBProgress (1): 8.2/9.0 kBProgress (1): 9.0 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.jar (9.0 kB at 48 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.pom
+Progress (1): 984 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17.pom (984 B at 5.4 kB/s)
+Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/maven-metadata.xml
+Progress (1): 323 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/maven-metadata.xml (323 B at 5.2 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/maven-metadata.xml
+Progress (1): 323 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/maven-metadata.xml (323 B at 1.8 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17-sources.jar
+Progress (1): 4.1/5.4 kBProgress (1): 5.4 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-test/1.17/beancontainer-test-1.17-sources.jar (5.4 kB at 29 kB/s)
+[INFO] 
+[INFO] --< org.cdisource.spring-cdisource:spring-cdisource-beancontainer-weld-impl >--
+[INFO] Building Weld Bean Container Implementation 1.17                   [4/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Deleting /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-beancontainer-weld-impl ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug deprecation target 17] to target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug deprecation target 17] to target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.cdisource.beancontainer.WeldBeanContainerTest
+Mar 17, 2024 10:30:48 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+INFO: WELD-000900: 3.1.9 (Final)
+Mar 17, 2024 10:30:48 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 6ae81ee3-bf94-46e3-9add-5a10080153f2 initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 6ae81ee3-bf94-46e3-9add-5a10080153f2 shut down
+Mar 17, 2024 10:30:49 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container b0114f94-1f32-435a-a9b8-d4966e5a3b46 initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container b0114f94-1f32-435a-a9b8-d4966e5a3b46 shut down
+Mar 17, 2024 10:30:49 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container db13d4b3-a95c-49e8-a171-c1b018708e2a initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container db13d4b3-a95c-49e8-a171-c1b018708e2a shut down
+Mar 17, 2024 10:30:49 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 24ecd42d-66fb-4c08-b227-55b7240357b8 initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 24ecd42d-66fb-4c08-b227-55b7240357b8 shut down
+Mar 17, 2024 10:30:49 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 8fcf8313-980c-4ece-8150-94a58e81e328 initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 8fcf8313-980c-4ece-8150-94a58e81e328 shut down
+Mar 17, 2024 10:30:49 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container c82b0a46-6c77-487e-a986-77da95fc1a04 initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container c82b0a46-6c77-487e-a986-77da95fc1a04 shut down
+Mar 17, 2024 10:30:49 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 3ba20b74-5b21-4fab-b31c-68999a1f420e initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 3ba20b74-5b21-4fab-b31c-68999a1f420e shut down
+Mar 17, 2024 10:30:49 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container e7ba50aa-2329-4e5f-a9bb-2d54b57f40af initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container e7ba50aa-2329-4e5f-a9bb-2d54b57f40af shut down
+Mar 17, 2024 10:30:49 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 27804f5f-d361-461f-8261-b033ada23e9b initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 27804f5f-d361-461f-8261-b033ada23e9b shut down
+Mar 17, 2024 10:30:49 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 1a40d4a4-e7d2-4f11-8a0e-7c1c0e489be9 initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 1a40d4a4-e7d2-4f11-8a0e-7c1c0e489be9 shut down
+Mar 17, 2024 10:30:49 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 232bb971-6226-4e44-b8c8-7534b05b3d46 initialized
+Mar 17, 2024 10:30:49 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 232bb971-6226-4e44-b8c8-7534b05b3d46 shut down
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.965 sec
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/target/spring-cdisource-beancontainer-weld-impl-1.17.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ spring-cdisource-beancontainer-weld-impl >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-beancontainer-weld-impl ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ spring-cdisource-beancontainer-weld-impl <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/target/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/target/spring-cdisource-beancontainer-weld-impl-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/pom.xml to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/target/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-beancontainer-weld-impl ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug deprecation target 17] to target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.cdisource.beancontainer.WeldBeanContainerTest
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+INFO: WELD-000900: 3.1.9 (Final)
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 14b9f02b-1621-45fa-8d52-e6938f919433 initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 14b9f02b-1621-45fa-8d52-e6938f919433 shut down
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 7f53a5f4-76b5-42b4-a973-3f82d90b3540 initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 7f53a5f4-76b5-42b4-a973-3f82d90b3540 shut down
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container dacaf2f6-ef8a-4c86-88e7-26a9f875a77d initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container dacaf2f6-ef8a-4c86-88e7-26a9f875a77d shut down
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container cee08f09-a958-40ab-a16d-384627275c3d initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container cee08f09-a958-40ab-a16d-384627275c3d shut down
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 7dd6e152-7089-4dc2-9cbe-9e0ed1cb9961 initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 7dd6e152-7089-4dc2-9cbe-9e0ed1cb9961 shut down
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 5986b09e-32dd-43f9-bba7-89a6d4c426b5 initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 5986b09e-32dd-43f9-bba7-89a6d4c426b5 shut down
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container c51a67e5-7f80-4ea3-a0ff-dae23590483e initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container c51a67e5-7f80-4ea3-a0ff-dae23590483e shut down
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 496b0a5d-9829-4100-a474-0fafee7ef582 initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 496b0a5d-9829-4100-a474-0fafee7ef582 shut down
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 5f18472f-f9e3-4beb-ae4b-a8c419d99796 initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 5f18472f-f9e3-4beb-ae4b-a8c419d99796 shut down
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 14808113-be2e-4fb2-891d-4e01bbbf45e3 initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container 14808113-be2e-4fb2-891d-4e01bbbf45e3 shut down
+Mar 17, 2024 10:30:50 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container f24d9095-abde-4b1e-b697-6a04139842d9 initialized
+Mar 17, 2024 10:30:50 PM org.jboss.weld.environment.se.WeldContainer shutdown
+INFO: WELD-ENV-002001: Weld SE container f24d9095-abde-4b1e-b697-6a04139842d9 shut down
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.888 sec
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ spring-cdisource-beancontainer-weld-impl >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-beancontainer-weld-impl ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ spring-cdisource-beancontainer-weld-impl <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/target/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar
+[WARNING] artifact org.cdisource.spring-cdisource:spring-cdisource-beancontainer-weld-impl:java-source:sources:1.17 already attached, replace previous instance
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ spring-cdisource-beancontainer-weld-impl ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/target/spring-cdisource-beancontainer-weld-impl-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/pom.xml to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/weld-impl/target/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ spring-cdisource-beancontainer-weld-impl ---
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.jar
+Progress (1): 4.0 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.jar (4.0 kB at 22 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.pom
+Progress (1): 2.6 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17.pom (2.6 kB at 14 kB/s)
+Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/maven-metadata.xml
+Progress (1): 348 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/maven-metadata.xml (348 B at 5.5 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/maven-metadata.xml
+Progress (1): 348 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/maven-metadata.xml (348 B at 1.9 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar
+Progress (1): 1.6 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-beancontainer-weld-impl/1.17/spring-cdisource-beancontainer-weld-impl-1.17-sources.jar (1.6 kB at 8.7 kB/s)
+[INFO] 
+[INFO] --------< org.cdisource.beancontainer:beancontainer-jndi-impl >---------
+[INFO] Building JNDI Bean Container Implementation 1.17                   [5/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ beancontainer-jndi-impl ---
+[INFO] Deleting /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ beancontainer-jndi-impl ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ beancontainer-jndi-impl ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ beancontainer-jndi-impl ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ beancontainer-jndi-impl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ beancontainer-jndi-impl ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug deprecation target 17] to target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ beancontainer-jndi-impl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ beancontainer-jndi-impl ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ beancontainer-jndi-impl ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ beancontainer-jndi-impl ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/target/beancontainer-jndi-impl-1.17.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ beancontainer-jndi-impl >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ beancontainer-jndi-impl ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ beancontainer-jndi-impl ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ beancontainer-jndi-impl ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ beancontainer-jndi-impl <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ beancontainer-jndi-impl ---
+[INFO] META-INF already added, skipping
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/target/beancontainer-jndi-impl-1.17-sources.jar
+[INFO] META-INF already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ beancontainer-jndi-impl ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/target/beancontainer-jndi-impl-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/pom.xml to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/target/beancontainer-jndi-impl-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ beancontainer-jndi-impl ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ beancontainer-jndi-impl ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ beancontainer-jndi-impl ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ beancontainer-jndi-impl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ beancontainer-jndi-impl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ beancontainer-jndi-impl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ beancontainer-jndi-impl ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ beancontainer-jndi-impl ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ beancontainer-jndi-impl ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ beancontainer-jndi-impl >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ beancontainer-jndi-impl ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ beancontainer-jndi-impl ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ beancontainer-jndi-impl ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ beancontainer-jndi-impl <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ beancontainer-jndi-impl ---
+[INFO] META-INF already added, skipping
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/target/beancontainer-jndi-impl-1.17-sources.jar
+[INFO] META-INF already added, skipping
+[WARNING] artifact org.cdisource.beancontainer:beancontainer-jndi-impl:java-source:sources:1.17 already attached, replace previous instance
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ beancontainer-jndi-impl ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/target/beancontainer-jndi-impl-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/pom.xml to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/beancontainer/jndi-impl/target/beancontainer-jndi-impl-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ beancontainer-jndi-impl ---
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.jar
+Progress (1): 4.1/4.2 kBProgress (1): 4.2 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.jar (4.2 kB at 23 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.pom
+Progress (1): 1.6 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17.pom (1.6 kB at 8.9 kB/s)
+Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/maven-metadata.xml
+Progress (1): 328 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/maven-metadata.xml (328 B at 5.1 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/maven-metadata.xml
+Progress (1): 328 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/maven-metadata.xml (328 B at 1.8 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17-sources.jar
+Progress (1): 1.7 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/beancontainer/beancontainer-jndi-impl/1.17/beancontainer-jndi-impl-1.17-sources.jar (1.7 kB at 9.7 kB/s)
+[INFO] 
+[INFO] ---< org.cdisource.spring-cdisource:spring-cdisource-testing-junit >----
+[INFO] Building CDISource JUnit Test Runner 1.17                          [6/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ spring-cdisource-testing-junit ---
+[INFO] Deleting /Users/nhope/git/spring-cdisource/testing/junit/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-testing-junit ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-testing-junit ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-testing-junit ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-testing-junit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/testing/junit/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-testing-junit ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 2 source files with javac [debug deprecation target 17] to target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-testing-junit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-testing-junit ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 3 source files with javac [debug deprecation target 17] to target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ spring-cdisource-testing-junit ---
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/testing/junit/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.cdisource.testing.junit.CdiTestRunnerTest
+Mar 17, 2024 10:30:53 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+INFO: WELD-000900: 3.1.9 (Final)
+Mar 17, 2024 10:30:53 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:54 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 8a465693-2589-46e3-9fed-aa18a0648dd0 initialized
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.489 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+Weld SE container 8a465693-2589-46e3-9fed-aa18a0648dd0 shut down by shutdown hook
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-testing-junit ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ spring-cdisource-testing-junit >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-testing-junit ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-testing-junit ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-testing-junit ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ spring-cdisource-testing-junit <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ spring-cdisource-testing-junit ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ spring-cdisource-testing-junit ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/pom.xml to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-testing-junit ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-testing-junit ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-testing-junit ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-testing-junit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/testing/junit/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-testing-junit ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-testing-junit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-testing-junit ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 3 source files with javac [debug deprecation target 17] to target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.6:test (default-test) @ spring-cdisource-testing-junit ---
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/testing/junit/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.cdisource.testing.junit.CdiTestRunnerTest
+Mar 17, 2024 10:30:54 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+INFO: WELD-000900: 3.1.9 (Final)
+Mar 17, 2024 10:30:54 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:55 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 06be66c8-5fd4-4679-ba42-5255391abc6e initialized
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.495 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+Weld SE container 06be66c8-5fd4-4679-ba42-5255391abc6e shut down by shutdown hook
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-testing-junit ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ spring-cdisource-testing-junit >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-testing-junit ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-testing-junit ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-testing-junit ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ spring-cdisource-testing-junit <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ spring-cdisource-testing-junit ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17-sources.jar
+[WARNING] artifact org.cdisource.spring-cdisource:spring-cdisource-testing-junit:java-source:sources:1.17 already attached, replace previous instance
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ spring-cdisource-testing-junit ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/pom.xml to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/testing/junit/target/spring-cdisource-testing-junit-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ spring-cdisource-testing-junit ---
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.jar
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.jar (4.3 kB at 23 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.pom
+Progress (1): 1.3 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17.pom (1.3 kB at 7.6 kB/s)
+Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/maven-metadata.xml
+Progress (1): 338 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/maven-metadata.xml (338 B at 5.2 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/maven-metadata.xml
+Progress (1): 338 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/maven-metadata.xml (338 B at 1.9 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17-sources.jar
+Progress (1): 2.2 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-testing-junit/1.17/spring-cdisource-testing-junit-1.17-sources.jar (2.2 kB at 13 kB/s)
+[INFO] 
+[INFO] --------< org.cdisource.spring-cdisource:spring-cdisource-web >---------
+[INFO] Building CDISource Web components 1.17                             [7/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ spring-cdisource-web ---
+[INFO] Deleting /Users/nhope/git/spring-cdisource/web/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-web ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-web ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-web ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/web/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-web ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 2 source files with javac [debug deprecation target 17] to target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/web/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-web ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug deprecation target 17] to target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.8:test (default-test) @ spring-cdisource-web ---
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/web/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.cdisource.web.CDIExpressionResolverTest
+Mar 17, 2024 10:30:56 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+INFO: WELD-000900: 3.1.9 (Final)
+Mar 17, 2024 10:30:56 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:56 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 643e158d-582e-4d26-8625-aff28b862e01 initialized
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.533 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+Weld SE container 643e158d-582e-4d26-8625-aff28b862e01 shut down by shutdown hook
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-web ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/web/target/spring-cdisource-web-1.17.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ spring-cdisource-web >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-web ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-web ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-web ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ spring-cdisource-web <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ spring-cdisource-web ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/web/target/spring-cdisource-web-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ spring-cdisource-web ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/web/target/spring-cdisource-web-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/web/pom.xml to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/web/target/spring-cdisource-web-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-web ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-web ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-web ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/web/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/nhope/git/spring-cdisource/web/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-web ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug deprecation target 17] to target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.8:test (default-test) @ spring-cdisource-web ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.1:jar (default-jar) @ spring-cdisource-web ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-sources) > generate-sources @ spring-cdisource-web >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-web ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-web ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-web ---
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-sources) < generate-sources @ spring-cdisource-web <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-sources) @ spring-cdisource-web ---
+[INFO] Building jar: /Users/nhope/git/spring-cdisource/web/target/spring-cdisource-web-1.17-sources.jar
+[WARNING] artifact org.cdisource.spring-cdisource:spring-cdisource-web:java-source:sources:1.17 already attached, replace previous instance
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ spring-cdisource-web ---
+[INFO] Installing /Users/nhope/git/spring-cdisource/web/target/spring-cdisource-web-1.17.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17.jar
+[INFO] Installing /Users/nhope/git/spring-cdisource/web/pom.xml to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17.pom
+[INFO] Installing /Users/nhope/git/spring-cdisource/web/target/spring-cdisource-web-1.17-sources.jar to /Users/nhope/.m2/repository/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17-sources.jar
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.5:deploy (default-deploy) @ spring-cdisource-web ---
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17.jar
+Progress (1): 4.1/5.3 kBProgress (1): 5.3 kB                        Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17.jar (5.3 kB at 28 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17.pom
+Progress (1): 3.2 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17.pom (3.2 kB at 17 kB/s)
+Downloading from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/maven-metadata.xml
+Progress (1): 328 B                   Downloaded from yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/maven-metadata.xml (328 B at 5.4 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/maven-metadata.xml
+Progress (1): 328 B                   Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/maven-metadata.xml (328 B at 1.8 kB/s)
+Uploading to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17-sources.jar
+Progress (1): 2.3 kB                    Uploaded to yarris-release: http://buildserver.yarris.com:8081/nexus/content/repositories/yarris-release/org/cdisource/spring-cdisource/spring-cdisource-web/1.17/spring-cdisource-web-1.17-sources.jar (2.3 kB at 12 kB/s)
+[INFO] 
+[INFO] ----< org.cdisource.spring-cdisource:spring-cdisource-springbridge >----
+[INFO] Building Spring Bridge 1.17                                        [8/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ spring-cdisource-springbridge ---
+[INFO] Deleting /Users/nhope/git/spring-cdisource/spring/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce) @ spring-cdisource-springbridge ---
+[WARNING] This rule is not compatible with the current version of Maven. The rule is not able to perform any checks.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:maven-version (default) @ spring-cdisource-springbridge ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.4.0:parse-version (default) @ spring-cdisource-springbridge ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ spring-cdisource-springbridge ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ spring-cdisource-springbridge ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 13 source files with javac [debug deprecation target 17] to target/classes
+[WARNING] /Users/nhope/git/spring-cdisource/spring/src/main/java/org/cdisource/springintegration/springsupport/ApplicationContextLocatorManager.java:[154,101] newInstance() in java.lang.Class has been deprecated
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ spring-cdisource-springbridge ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ spring-cdisource-springbridge ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 16 source files with javac [debug deprecation target 17] to target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.8:test (default-test) @ spring-cdisource-springbridge ---
+[INFO] Surefire report directory: /Users/nhope/git/spring-cdisource/spring/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.cdisource.springintegration.SpringBridgeTest
+Mar 17, 2024 10:30:58 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+INFO: WELD-000900: 3.1.9 (Final)
+Mar 17, 2024 10:30:59 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Mar 17, 2024 10:30:59 PM org.jboss.weld.environment.se.WeldContainer fireContainerInitializedEvent
+INFO: WELD-ENV-002003: Weld SE container 37a41c34-535a-49e7-893b-4a84eb15c9ca initialized
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=someNamedCdiBean (bean=class org.cdisource.springintegration.NamedCdiBean) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=LogFactoryManager_FactoryBeanForCDIBean (bean=class org.cdisource.logging.LogFactoryManager) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=JDKLogger_FactoryBeanForCDIBean (bean=class org.cdisource.logging.JDKLogger) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringIntegrationExtention_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringIntegrationExtention) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=Interceptor_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.Interceptor) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ConversationImpl_FactoryBeanForCDIBean (bean=interface javax.enterprise.context.Conversation) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=WeldSEBeanRegistrant_FactoryBeanForCDIBean (bean=class org.jboss.weld.environment.se.WeldSEBeanRegistrant) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=foo2 (bean=class org.cdisource.springintegration.CdiBean) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=EventMetadataBean_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.EventMetadata) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringBeanUsingStandardInjection_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringBeanUsingStandardInjection) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ClassWithInjectionPoints_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.ClassWithInjectionPoints) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=JDKLoggerFactory_FactoryBeanForCDIBean (bean=class org.cdisource.logging.JDKLoggerFactory) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ParametersFactory_FactoryBeanForCDIBean (bean=class org.jboss.weld.environment.se.beans.ParametersFactory) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanManagerProxy_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.BeanManager) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanContainerManager_FactoryBeanForCDIBean (bean=class org.cdisource.beancontainer.BeanContainerManager) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=FooSpringBean_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.FooSpringBean) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=InterceptionFactoryBean_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.InterceptionFactory) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringBeanUsingAutoWired_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringBeanUsingAutoWired) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=InstanceImpl_FactoryBeanForCDIBean (bean=class java.lang.Object) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanNamespace_FactoryBeanForCDIBean (bean=class org.cdisource.beancontainer.namespace.BeanNamespace) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringIntegrationUsingLookupExtentionTest_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringIntegrationUsingLookupExtentionTest) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=Decorator_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.Decorator) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=CdiBeanThatHasSpringInjection2_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.CdiBeanThatHasSpringInjection2) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=RequestContextControllerBean_FactoryBeanForCDIBean (bean=interface javax.enterprise.context.control.RequestContextController) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanContainerExtention_FactoryBeanForCDIBean (bean=class org.cdisource.beancontainer.BeanContainerExtention) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=CdiBean2_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.CdiBean2) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=CdiBeanThatHasSpringInjection_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.CdiBeanThatHasSpringInjection) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ScopeManager_FactoryBeanForCDIBean (bean=class org.cdisource.beancontainer.ScopeManager) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  lookupName=producerBean : bean=null, def=null
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ProducerBean_FactoryBeanForCDIBean (bean=class java.lang.String) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  lookupName=producerBean : bean=null, def=null
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ProducerBean_FactoryBeanForCDIBean (bean=class java.lang.String) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=FooSpringBean2Impl_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.FooSpringBean2Impl) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=Bean_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.Bean) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SystemOutLoggerFactory_FactoryBeanForCDIBean (bean=class org.cdisource.logging.SystemOutLoggerFactory) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringIntegrationExtentionTest_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringIntegrationExtentionTest) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringBridgeTest_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringBridgeTest) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=WeldSEBeanRegistrant_FactoryBeanForCDIBean (bean=class org.jboss.weld.environment.se.WeldContainer) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=EventImpl_FactoryBeanForCDIBean (bean=interface org.jboss.weld.events.WeldEvent) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  lookupName=producerBean : bean=null, def=null
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ProducerBean_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.ProducerBean) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=InjectionPointBean_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.InjectionPoint) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanManagerImpl_FactoryBeanForCDIBean (bean=class org.jboss.weld.manager.BeanManagerImpl) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=CdiBeanThatHasSpringLookupInjection_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.CdiBeanThatHasSpringLookupInjection) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=WeldExtension_FactoryBeanForCDIBean (bean=class org.jboss.weld.bootstrap.WeldExtension) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanContainerImpl_FactoryBeanForCDIBean (bean=class org.cdisource.beancontainer.BeanContainerImpl) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=someNamedCdiBean (bean=class org.cdisource.springintegration.NamedCdiBean) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=LogFactoryManager_FactoryBeanForCDIBean (bean=class org.cdisource.logging.LogFactoryManager) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=JDKLogger_FactoryBeanForCDIBean (bean=class org.cdisource.logging.JDKLogger) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringIntegrationExtention_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringIntegrationExtention) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=Interceptor_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.Interceptor) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ConversationImpl_FactoryBeanForCDIBean (bean=interface javax.enterprise.context.Conversation) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=WeldSEBeanRegistrant_FactoryBeanForCDIBean (bean=class org.jboss.weld.environment.se.WeldSEBeanRegistrant) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=foo2 (bean=class org.cdisource.springintegration.CdiBean) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=EventMetadataBean_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.EventMetadata) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringBeanUsingStandardInjection_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringBeanUsingStandardInjection) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ClassWithInjectionPoints_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.ClassWithInjectionPoints) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=JDKLoggerFactory_FactoryBeanForCDIBean (bean=class org.cdisource.logging.JDKLoggerFactory) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ParametersFactory_FactoryBeanForCDIBean (bean=class org.jboss.weld.environment.se.beans.ParametersFactory) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanManagerProxy_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.BeanManager) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanContainerManager_FactoryBeanForCDIBean (bean=class org.cdisource.beancontainer.BeanContainerManager) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=FooSpringBean_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.FooSpringBean) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=InterceptionFactoryBean_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.InterceptionFactory) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringBeanUsingAutoWired_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringBeanUsingAutoWired) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=InstanceImpl_FactoryBeanForCDIBean (bean=class java.lang.Object) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanNamespace_FactoryBeanForCDIBean (bean=class org.cdisource.beancontainer.namespace.BeanNamespace) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringIntegrationUsingLookupExtentionTest_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringIntegrationUsingLookupExtentionTest) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=Decorator_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.Decorator) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=CdiBeanThatHasSpringInjection2_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.CdiBeanThatHasSpringInjection2) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=RequestContextControllerBean_FactoryBeanForCDIBean (bean=interface javax.enterprise.context.control.RequestContextController) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanContainerExtention_FactoryBeanForCDIBean (bean=class org.cdisource.beancontainer.BeanContainerExtention) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=CdiBean2_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.CdiBean2) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=CdiBeanThatHasSpringInjection_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.CdiBeanThatHasSpringInjection) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ScopeManager_FactoryBeanForCDIBean (bean=class org.cdisource.beancontainer.ScopeManager) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  lookupName=producerBean : bean=null, def=null
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ProducerBean_FactoryBeanForCDIBean (bean=class java.lang.String) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  lookupName=producerBean : bean=null, def=null
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ProducerBean_FactoryBeanForCDIBean (bean=class java.lang.String) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=FooSpringBean2Impl_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.FooSpringBean2Impl) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=Bean_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.Bean) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SystemOutLoggerFactory_FactoryBeanForCDIBean (bean=class org.cdisource.logging.SystemOutLoggerFactory) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringIntegrationExtentionTest_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringIntegrationExtentionTest) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=SpringBridgeTest_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.SpringBridgeTest) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=WeldSEBeanRegistrant_FactoryBeanForCDIBean (bean=class org.jboss.weld.environment.se.WeldContainer) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=EventImpl_FactoryBeanForCDIBean (bean=interface org.jboss.weld.events.WeldEvent) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  lookupName=producerBean : bean=null, def=null
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=ProducerBean_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.ProducerBean) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=InjectionPointBean_FactoryBeanForCDIBean (bean=interface javax.enterprise.inject.spi.InjectionPoint) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanManagerImpl_FactoryBeanForCDIBean (bean=class org.jboss.weld.manager.BeanManagerImpl) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=CdiBeanThatHasSpringLookupInjection_FactoryBeanForCDIBean (bean=class org.cdisource.springintegration.CdiBeanThatHasSpringLookupInjection) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=WeldExtension_FactoryBeanForCDIBean (bean=class org.jboss.weld.bootstrap.WeldExtension) [exisiting_def=false]
+org.cdisource.springintegration.CdiBeanFactoryPostProcessor SEVERE spring-cdisource: registering bean: from Spring => CDI  name=BeanContainerImpl_FactoryBeanForCDIBean (bean=class org.cdisource.beancontainer.BeanContainerImpl) [exisiting_def=false]
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.895 sec <<< FAILURE!
+Running org.cdisource.springintegration.SpringIntegrationExtentionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.cdisource.springintegration.SpringIntegrationUsingLookupExtentionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+
+Results :
+
+Tests in error: 
+  injectAutowiredAnnotation(org.cdisource.springintegration.SpringBridgeTest): Error creating bean with name 'springBeanAuto': Unsatisfied dependency expressed through field 'mailHost'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.inject.Inject(), @javax.inject.Named("mailHost")}
+
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0
+
+Weld SE container 37a41c34-535a-49e7-893b-4a84eb15c9ca shut down by shutdown hook
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for CDISource Project Build Aggregator 1.17:
+[INFO] 
+[INFO] CDI Advocate Parent ................................ SUCCESS [  1.571 s]
+[INFO] BeanContainer API .................................. SUCCESS [  3.249 s]
+[INFO] Beancontainer testing harness ...................... SUCCESS [  1.643 s]
+[INFO] Weld Bean Container Implementation ................. SUCCESS [  3.678 s]
+[INFO] JNDI Bean Container Implementation ................. SUCCESS [  1.593 s]
+[INFO] CDISource JUnit Test Runner ........................ SUCCESS [  2.607 s]
+[INFO] CDISource Web components ........................... SUCCESS [  2.262 s]
+[INFO] Spring Bridge ...................................... FAILURE [  1.521 s]
+[INFO] CDISource Project Build Aggregator ................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.282 s
+[INFO] Finished at: 2024-03-17T22:30:59+11:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.8:test (default-test) on project spring-cdisource-springbridge: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/nhope/git/spring-cdisource/spring/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :spring-cdisource-springbridge
